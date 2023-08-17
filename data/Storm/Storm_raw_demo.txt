@@ -1,0 +1,2094 @@
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.supervisor.SupervisorUtils: Failed to read local heartbeat for workerId : <*>,Ignoring exception.
+WARN org.apache.storm.daemon.supervisor.SupervisorUtils: Failed to read local heartbeat for workerId : <*>,Ignoring exception.
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorter: Rack <*>: Overall Avail [ <*> ] Total [ <*> ]
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Sorted Object Resources: <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+WARN org.apache.storm.daemon.nimbus.Nimbus: Got invalid NumErrorsChoice \'<*>\'
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get topo info exception. (topology id=\'<*>\')
+DEBUG org.apache.storm.daemon.metrics.reporters.CsvPreparableReporter: Stopping...
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+DEBUG org.apache.storm.container.oci.OciContainerManager: command : <*>; location: <*>
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using default scheduler
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Can\'t find <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw unexpected exception <*> <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.LocalCluster: Starting Nimbus server...
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+WARN org.apache.storm.daemon.nimbus.Nimbus: Got invalid NumErrorsChoice \'<*>\'
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: get topology info exception. (topology name=<*>)
+INFO org.apache.storm.container.cgroup.CgroupManager: Creating cgroup for worker <*> with resources <*> MB <*> % CPU
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+INFO org.apache.storm.daemon.nimbus.Nimbus: TRANSITION: <*> <*> <*> <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Sorted Object Resources: <*>
+INFO org.apache.storm.container.oci.RuncLibContainerManager: manifest to resource Plugin is: <*>
+DEBUG org.apache.storm.metricstore.rocksdb.StringMetadataCache: Writing <*> to RocksDB
+ERROR org.apache.storm.utils.ServerUtils: Invalid location <*> is outside of <*>
+TRACE org.apache.storm.utils.ServerUtils: java untar <*> to <*>
+TRACE org.apache.storm.utils.ServerUtils: Extracting file <*>
+INFO org.apache.storm.utils.ServerUtils: Symlinks disabled skipping <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+WARN org.apache.storm.daemon.nimbus.Nimbus: Got invalid NumErrorsChoice \'<*>\'
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: get topology info exception. (topology name=<*>)
+WARN org.apache.storm.daemon.supervisor.SupervisorUtils: Failed to read local heartbeat for workerId : <*>,Ignoring exception.
+WARN org.apache.storm.daemon.supervisor.SupervisorUtils: Failed to read local heartbeat for workerId : <*>,Ignoring exception.
+WARN org.apache.storm.daemon.supervisor.SupervisorUtils: Failed to read local heartbeat for workerId : <*>,Ignoring exception.
+ERROR org.apache.storm.daemon.supervisor.timer.ReportWorkerHeartbeats: Read local worker heartbeats error, skipping heartbeats for this round, msg:<*>
+DEBUG org.apache.storm.daemon.supervisor.timer.ReportWorkerHeartbeats: Worker are using pacemaker to send worker heartbeats so skip reporting by supervisor.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+WARN org.apache.storm.daemon.nimbus.Nimbus: get nimbus conf exception.
+INFO org.apache.storm.daemon.nimbus.Nimbus: not a leader, skipping credential renewal.
+TRACE org.apache.storm.scheduler.resource.normalization.NormalizedResources: Calculating min percentage used by. Used Mem: <*> Total Mem: <*> Used Normalized Resources: <*> Total Normalized Resources: <*>
+TRACE org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: for <*>: minResourcePercent=<*>, avgResourcePercent=<*>, numExistingSchedule=<*>
+INFO org.apache.storm.pacemaker.Pacemaker: Starting pacemaker server for storm version \'<*>
+ERROR org.apache.storm.pacemaker.PacemakerServer: Can\'t start pacemaker server without proper PACEMAKER_AUTH_METHOD.
+DEBUG org.apache.storm.metricstore.rocksdb.StringMetadataCache: Writing <*> to RocksDB
+TRACE org.apache.storm.utils.ServerUtils: java untar <*> to <*>
+DEBUG org.apache.storm.scheduler.resource.RasNodes: freeing ws <*> on node <*>
+DEBUG org.apache.storm.scheduler.resource.RasNode: freeing WorkerSlot <*> on node <*>
+DEBUG org.apache.storm.scheduler.resource.RasNode: freeing WorkerSlot <*> on node <*>
+DEBUG org.apache.storm.scheduler.resource.RasNode: freeing WorkerSlot <*> on node <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Deleted blob for key <*> with <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get TopologySummaryByName info exception.
+INFO org.apache.storm.daemon.supervisor.Container: REMOVE worker-user <*>
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorter: Cluster Overall Avail [ <*> ] Total [ <*> ]
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Sorted Object Resources: <*>
+WARN org.apache.storm.LocalCluster: Adding tracked metrics for ID <*>
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using custom scheduler: <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw unexpected exception <*> <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw IllegalAccessException <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.LocalCluster: Starting Nimbus server...
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+TRACE org.apache.storm.utils.ServerUtils: java untar <*> to <*>
+DEBUG org.apache.storm.localizer.LocallyCachedTopologyBlob: Removing version file <*> to force download on failure
+DEBUG org.apache.storm.localizer.LocallyCachedTopologyBlob: Removing destination file <*> in preparation for move
+DEBUG org.apache.storm.localizer.LocallyCachedTopologyBlob: Writing out version file <*> with version <*>
+DEBUG org.apache.storm.localizer.LocallyCachedTopologyBlob: New version of <*> - <*> committed <*>
+DEBUG org.apache.storm.scheduler.utils.ArtifactoryConfigLoader: About to issue a GET to <*>
+DEBUG org.apache.storm.scheduler.utils.ArtifactoryConfigLoader: Returning <*>
+ERROR org.apache.storm.scheduler.utils.ArtifactoryConfigLoader: Expected directory children not present
+DEBUG org.apache.storm.scheduler.utils.ArtifactoryConfigLoader: returning a new map from file <*>
+DEBUG org.apache.storm.blobstore.KeySequenceNumber: stateInfoList-size <*> stateInfoList-data <*>
+DEBUG org.apache.storm.blobstore.KeySequenceNumber: stateInfoSize <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Created state in zookeeper <*> <*> <*>
+DEBUG org.apache.storm.scheduler.blacklist.BlacklistScheduler: running Black List scheduler
+DEBUG org.apache.storm.scheduler.blacklist.BlacklistScheduler: AssignableSlots: <*>
+DEBUG org.apache.storm.scheduler.blacklist.BlacklistScheduler: AvailableSlots: <*>
+DEBUG org.apache.storm.scheduler.blacklist.BlacklistScheduler: UsedSlots: <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Supervisors <*> are blacklisted.
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: supervisor <*> is not alive, do not need to add to blacklist.
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Supervisor <*> was never back to normal during tolerance period, probably dead. Will remove from cache.
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Worker slot <*> was never back to normal during tolerance period, probably dead. Will be removed from cache.
+DEBUG org.apache.storm.scheduler.resource.RasNodes: freeing ws <*> on node <*>
+DEBUG org.apache.storm.scheduler.resource.RasNode: freeing WorkerSlot <*> on node <*>
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: clean up worker <*>
+INFO org.apache.storm.container.oci.RuncLibContainerManager: port unknown for workerId <*>, looking up from <*>
+WARN org.apache.storm.container.oci.RuncLibContainerManager: Failed cleaning up RuncWorker <*>
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: Removing <*> from the watched workers list
+INFO org.apache.storm.daemon.supervisor.Supervisor: Shutting down supervisor <*>
+WARN org.apache.storm.container.oci.OciUtils: <*> is not configured; this indicates OCI container is not supported; <*> config for topology <*> will be removed
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.SchedulingSearcherState: For exec <*>, can only bind up to <*> ackers due to <*> limit. Acker Per worker setting: <*>.
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Assigned <*> ackers on workerSlot=<*> with the executor=<*> for topology=<*>
+DEBUG org.apache.storm.container.oci.OciUtils: <*> is not configured; skip image validation
+WARN org.apache.storm.scheduler.multitenant.MultitenantScheduler: Config loader returned null. Will try to read from multitenant-scheduler.yaml
+WARN org.apache.storm.scheduler.multitenant.MultitenantScheduler: Reading from multitenant-scheduler.yaml returned null. This could because the file is not available. Will load configs from storm configuration
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+INFO org.apache.storm.LocalCluster: \n\n\t\tRUNNING <*> with args <*>\n\n
+INFO org.apache.storm.scheduler.resource.ResourceUtils: Component resources updated: <*>
+INFO org.apache.storm.scheduler.resource.ResourceUtils: Component resource updates ignored: <*>
+INFO org.apache.storm.scheduler.resource.RasNodes: Found an assigned slot(s) on a dead supervisor <*> with assignments <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: The max state search configured by topology <*> is <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: The max state search that will be used by topology <*> is <*>
+INFO org.apache.storm.scheduler.resource.RasNodes: Found an assigned slot(s) on a dead supervisor <*> with assignments <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Cluster:
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Rack: <*>
+ERROR org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Topology <*>:<*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Topology <*> <*> Number of ExecutorsNeedScheduling: <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: For topology: <*>, we have sorted execs: <*> and unassigned ackers: <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: scheduleExecutorsOnNodes: will assign <*> executors for topo <*>, sortNodesForEachExecutor=<*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: scheduleExecutorsOnNodes: loopCnt=<*>, execIndex=<*>, topo=<*>
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Failed to assign exec=<*>, comp=<*>, topo=<*> to worker=<*> on node=(<*>, availCpu=<*>, availMem=<*>).
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: scheduleExecutorsOnNodes: Failed to schedule execId=<*>, comp=<*> at loopCnt=<*>, topo=<*>
+INFO org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: scheduleExecutorsOnNodes: Scheduled=<*> in <*> milliseconds, state.elapsedtime=<*>, backtrackCnt=<*>, topo=<*>
+INFO org.apache.storm.scheduler.resource.strategies.scheduling.SchedulingSearcherState: Topology <*> NodeCompAssignment is empty
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+DEBUG org.apache.storm.daemon.nimbus.HeartbeatCache: Computing alive executors for <*>\nExecutors: <*>\nAssignment: <*>\nHeartbeat cache: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+DEBUG org.apache.storm.daemon.nimbus.HeartbeatCache: Computing alive executors for <*>\nExecutors: <*>\nAssignment: <*>\nHeartbeat cache: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+DEBUG org.apache.storm.daemon.nimbus.HeartbeatCache: Computing alive executors for <*>\nExecutors: <*>\nAssignment: <*>\nHeartbeat cache: <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Cluster Overall Avail [ <*> ] Total [ <*> ], rackCnt=<*>, hostCnt=<*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Sorted Object Resources: <*>
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.nimbus.TimeOutWorkerHeartbeatsRecoveryStrategy: Failed to recover heartbeats for nodes: <*> with timeout <*>s
+INFO org.apache.storm.LocalCluster: Starting Nimbus server...
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get topology exception. (topology id=\'<*>\')
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+WARN org.apache.storm.nimbus.DefaultTopologyValidator: Metrics for stream name \'<*>\' will be reported as \'<*>\'.
+WARN org.apache.storm.nimbus.DefaultTopologyValidator: Metrics for stream name \'<*>\' will be reported as \'<*>\'.
+INFO org.apache.storm.LocalCluster: \n\n\t\tRUNNING <*> with args <*>\n\n
+INFO org.apache.storm.daemon.supervisor.ReadClusterState: Setting <*> assignment to null
+INFO org.apache.storm.daemon.supervisor.ReadClusterState: Waiting for <*> to be EMPTY, currently <*>
+INFO org.apache.storm.daemon.supervisor.Container: Cleaning up <*>:<*>
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+INFO org.apache.storm.daemon.supervisor.Container: REMOVE worker-user <*>
+WARN org.apache.storm.daemon.supervisor.BasicContainer: No approved workers exists
+DEBUG org.apache.storm.daemon.metrics.reporters.CsvPreparableReporter: Stopping...
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+DEBUG org.apache.storm.daemon.supervisor.OnlyLatestExecutor: Replacing runnable for <*> - <*>
+DEBUG org.apache.storm.daemon.supervisor.Slot: STATE <*>
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+DEBUG org.apache.storm.daemon.supervisor.Slot: STATE <*>
+INFO org.apache.storm.daemon.supervisor.Slot: SLOT <*>: Assignment Changed from <*> to <*>
+INFO org.apache.storm.daemon.supervisor.Slot$DynamicState: Canceling download of <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: Releasing slot for <*> <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: Releasing slot for <*> <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Removing reference <*> from <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> had no reservation for <*>, current references are <*> with last update at <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Removing reference <*> from <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.daemon.supervisor.Slot$DynamicState: Canceling download of <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: requestDownloadTopologyBlobs for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> already has a reservation for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.daemon.supervisor.Slot: STATE <*>
+INFO org.apache.storm.daemon.supervisor.Slot: There are pending changes, waiting for them to finish before launching container...
+INFO org.apache.storm.daemon.supervisor.Slot: STATE <*> -> <*>
+INFO org.apache.storm.daemon.supervisor.Slot: SLOT <*>: Changing current assignment from <*> to <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: TRANSITION: <*> <*> <*> <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Killing topology: <*>
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+WARN org.apache.storm.nimbus.AssignmentDistributionService: Discard an assignment distribution for node <*> because server port info is missing.
+ERROR org.apache.storm.nimbus.AssignmentDistributionService: Add node assignments interrupted: <*>
+WARN org.apache.storm.nimbus.AssignmentDistributionService: Discard an assignment distribution for node <*> because the target sub queue is full.
+WARN org.apache.storm.LocalCluster$Builder: nimbusDaemon is null
+WARN org.apache.storm.LocalCluster: Adding tracked metrics for ID <*>
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using custom scheduler: <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw IllegalAccessException <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw unexpected exception <*> <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+ERROR org.apache.storm.scheduler.utils.ArtifactoryConfigLoader$GetStringResponseHandler: Got unexpected response code <*>; entity: <*>
+ERROR org.apache.storm.metricstore.rocksdb.RocksDbMetricsWriter: Failed to generate unique ids
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorter: Rack <*>: Overall Avail [ <*> ] Total [ <*> ]
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Sorted Object Resources: <*>
+DEBUG org.apache.storm.metricstore.rocksdb.StringMetadataCache: Writing <*> to RocksDB
+INFO org.apache.storm.daemon.nimbus.Nimbus: Canceled uploading blob for session <*>. Closing session.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+INFO org.apache.storm.daemon.metrics.reporters.JmxPreparableReporter: Preparing...
+DEBUG org.apache.storm.security.auth.DefaultHttpCredentialsPlugin: Get user name <*> from http request principal
+INFO org.apache.storm.LocalCluster: Cluster was not idle in <*> ms
+ERROR org.apache.storm.metricstore.rocksdb.RocksDbMetricsWriter: Failed to generate unique ids
+WARN org.apache.storm.scheduler.utils.ArtifactoryConfigLoader: Will not save null data into the artifactory cache
+WARN org.apache.storm.container.cgroup.CgroupManager: cgroup <*> doesn\'t exist!
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+WARN org.apache.storm.LocalCluster$Builder: nimbusDaemon is null
+WARN org.apache.storm.LocalCluster: Adding tracked metrics for ID <*>
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using custom scheduler: <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Can\'t find <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw InstantiationException <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.LocalCluster: Starting Nimbus server...
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.metric.StormMetricsRegistry: Started statistics report plugin...
+DEBUG org.apache.storm.utils.ServerUtils: CMD: <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-LINE#: <*>
+ERROR org.apache.storm.utils.ServerUtils: Expecting UID integer but got <*> in output of \id -u <*>\ command
+DEBUG org.apache.storm.utils.ServerUtils: CMD: <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-LINE#: <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD: <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-LINE#: <*>
+ERROR org.apache.storm.utils.ServerUtils: Expecting UID integer but got <*> in output of \id -u <*>\ command
+INFO org.apache.storm.utils.ServerUtils: Found UID <*> for <*>, while mocking the owner of pidDir <*>
+DEBUG org.apache.storm.utils.ServerUtils: Process directory <*> owner is <*>
+INFO org.apache.storm.utils.ServerUtils: Prior process is dead, since directory <*> owner <*> is not same as expectedUser <*>, likely pid <*> was reused for a new process for actualUser <*>, <*>}
+INFO org.apache.storm.utils.ServerUtils: None of the processes <*> are alive AND owned by expectedUser <*>
+INFO org.apache.storm.blobstore.FileBlobStoreImpl: Creating new blob store based in <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD: ps -o uid -p <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-LINE#<*>: <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-LINE#<*>: <*>
+INFO org.apache.storm.utils.ServerUtils: <*> of <*> Processes <*> are running as UIDs <*>: but expected userId is <*>
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+TRACE org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Topology <*>, executor <*> would not fit in resources available on worker <*>
+PUT org.apache.storm.daemon.supervisor.Container: topology.submitter.user
+PUT org.apache.storm.daemon.supervisor.Container: logs.groups
+PUT org.apache.storm.daemon.supervisor.Container: logs.users
+PUT org.apache.storm.daemon.supervisor.Container: topology.worker.timeout.secs
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+DEBUG org.apache.storm.pacemaker.Pacemaker: Checking if path [ <*> ] exists... <*> .
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Got invalid NumErrorsChoice \'<*>\'
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: get topology info exception. (topology name=<*>)
+DEBUG org.apache.storm.scheduler.blacklist.strategies.DefaultBlacklistStrategy: Added supervisor <*> to blacklist
+DEBUG org.apache.storm.scheduler.blacklist.strategies.DefaultBlacklistStrategy: supervisorsWithFailures : <*>
+DEBUG org.apache.storm.scheduler.blacklist.strategies.DefaultBlacklistStrategy: sendAssignmentFailureCount: <*>
+DEBUG org.apache.storm.scheduler.blacklist.strategies.DefaultBlacklistStrategy: Need <*> slots.
+DEBUG org.apache.storm.scheduler.blacklist.strategies.DefaultBlacklistStrategy: Available <*> slots.
+DEBUG org.apache.storm.scheduler.blacklist.strategies.DefaultBlacklistStrategy: Shortage <*> slots.
+INFO org.apache.storm.scheduler.blacklist.strategies.DefaultBlacklistStrategy: Need <*> slots more. Releasing some blacklisted nodes to cover it.
+DEBUG org.apache.storm.scheduler.blacklist.strategies.DefaultBlacklistStrategy: Releasing <*> with <*> slots leaving <*> slots to go
+DEBUG org.apache.storm.scheduler.blacklist.strategies.DefaultBlacklistStrategy: Releasing <*> nodes because of low resources
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+INFO org.apache.storm.daemon.nimbus.Nimbus: Delaying event <*> for <*> secs for <*>
+WARN org.apache.storm.container.oci.RuncLibContainerManager: <*> doesn\'t exist
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: Checking container <*>, pid <*>, user <*>
+INFO org.apache.storm.utils.ServerUtils: Skip mocking, since owner <*> of pidDir <*> is already numeric
+DEBUG org.apache.storm.utils.ServerUtils: Process directory <*> owner is <*>
+DEBUG org.apache.storm.utils.ServerUtils: Process <*> is alive and owned by expectedUser <*>
+WARN org.apache.storm.utils.ServerUtils: Failed to determine if processes <*> for user <*> are dead using filesystem, will try \ps\ command: <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD: ls -dn <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-OUTLINE: <*>
+ERROR org.apache.storm.utils.ServerUtils: Expecting at third field <*> to be numeric UID \ls -dn <*>\ output, got <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD: <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-LINE#: <*>
+ERROR org.apache.storm.utils.ServerUtils: Expecting UID integer but got <*> in output of \id -u <*>\ command
+DEBUG org.apache.storm.utils.ServerUtils: CMD: <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-LINE#<*>: <*>
+ERROR org.apache.storm.utils.ServerUtils: Received unexpected output from tasklist command. Expected one colon in user name line. Line was <*>
+INFO org.apache.storm.utils.ServerUtils: <*> of the Processes <*> are running as user(s) <*>: but expected user is <*>
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: WorkerId <*>: Checking areAllProcessesDead: <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: TRANSITION: <*> <*> <*> <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Adding topo to history log: <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+WARN org.apache.storm.nimbus.DefaultTopologyValidator: Metrics for stream name \'<*>\' will be reported as \'<*>\'.
+WARN org.apache.storm.nimbus.DefaultTopologyValidator: Metrics for stream name \'<*>\' will be reported as \'<*>\'.
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+ERROR org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Topology <*>:<*>
+ERROR org.apache.storm.scheduler.resource.strategies.scheduling.ConstraintSolverStrategy: Unsatisfiable constraint: Component: <*> marked as spread has <*> executors which is larger than number of nodes * maxCoLocationCnt: <*> * <*> 
+WARN org.apache.storm.daemon.supervisor.Slot: Dropping <*> no topology is running
+INFO org.apache.storm.daemon.supervisor.Slot$DynamicState: Canceling download of <*>
+INFO org.apache.storm.scheduler.resource.strategies.priority.GenericResourceAwareSchedulingPriorityStrategy: GRAS SIM Scheduling <*> with score of <*>
+WARN org.apache.storm.scheduler.resource.strategies.priority.GenericResourceAwareSchedulingPriorityStrategy: Resource: <*> is not supported in this cluster. Ignoring this request.
+ERROR org.apache.storm.daemon.nimbus.Nimbus: Error while processing event
+INFO org.apache.storm.LocalCluster: \n\n\t\tRUNNING <*> with args <*>\n\n
+DEBUG org.apache.storm.scheduler.resource.RasNode: freeing WorkerSlot <*> on node <*>
+ERROR org.apache.storm.scheduler.EvenScheduler: No available slots for topology: <*>
+INFO org.apache.storm.container.oci.RuncLibContainerManager: port unknown for workerId <*>, looking up from <*>
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: workerId <*>: Got manifest: <*>
+INFO org.apache.storm.container.oci.RuncLibContainerManager: workerId <*>: Got config metadata: <*>
+INFO org.apache.storm.container.oci.RuncLibContainerManager: workerId <*>: Got layers metadata: <*>
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: workerId <*>: ociEnv: <*>
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: workerId <*>: args: <*>
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: workerId <*>: layers: <*>
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: workerId <*>: mounts: <*>
+INFO org.apache.storm.container.oci.RuncLibContainerManager: workerId <*>: memoryInBytes set to <*>; cpusQuotas set to <*>
+INFO org.apache.storm.container.oci.RuncLibContainerManager: workerId <*>: oci-config.json file path: <*>
+ERROR org.apache.storm.container.oci.RuncLibContainerManager: launchWorkerProcess RuncCommand <*> exited with code: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: TRANSITION: <*> <*> <*> <*>
+DEBUG org.apache.storm.metricstore.rocksdb.StringMetadataCache: Writing <*> to RocksDB
+DEBUG org.apache.storm.scheduler.utils.ConfigLoaderFactoryService: Config <*> is not set.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get topology exception. (topology id=\'<*>\')
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Cluster Overall Avail [ <*> ] Total [ <*> ], rackCnt=<*>, hostCnt=<*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Sorted Object Resources: <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: KeyList from blobstore <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Latest Sequence Number <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: getNimbodesWithLatestSequenceNumberOfBlob stateInfo <*> version <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: nimbusInfoList <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Download blob NimbusInfos <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Download blob key: <*>, NimbusInfo <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Topology <*> is not isolated
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Slots... requested <*> used <*> free <*> available <*> to be used <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: How many nodes to get <*> slots from <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: Found <*> nodes so far <*> more slots needed
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes... new <*> used <*> max <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: Trying to grab <*> free slots from <*>
+DEBUG org.apache.storm.daemon.drpc.DRPC: Execute <*> <*>
+DEBUG org.apache.storm.daemon.drpc.DRPC: Waiting for result <*> <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Canceled uploading blob for session <*>. Closing session.
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+INFO org.apache.storm.daemon.supervisor.Container: Force Killing <*>:<*>
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: local blob <*> downloaded, in sync with remote blobstore to time <*>
+WARN org.apache.storm.LocalCluster$Builder: nimbusDaemon is null
+WARN org.apache.storm.LocalCluster: Adding tracked metrics for ID <*>
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using default scheduler
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Can\'t find <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw IllegalAccessException <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+DEBUG org.apache.storm.localizer.AsyncLocalizer: reconstructing resources owned by <*>
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: Using resource isolation plugin <*>: <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Cleanup black list scheduler
+WARN org.apache.storm.daemon.nimbus.Nimbus: Memory over-scheduled on <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Node Id: <*> Total Mem: <*>, Used Mem: <*>, Available Mem: <*>, Total CPU: <*>, Used CPU: <*>, Available CPU: <*>, fragmented: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Created blob <*> for session <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: begin create blob exception.
+DEBUG org.apache.storm.daemon.supervisor.Slot: found changing blobs <*> moving them to pending...
+INFO org.apache.storm.zookeeper.LeaderElectorImp: Leader latch is not started so no removeFromLeaderLockQueue needed.
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+DEBUG org.apache.storm.scheduler.resource.RasNode: target slot: <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool$RoundRobinSlotScheduler: Scheduling for <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool$RoundRobinSlotScheduler: Assigning <*> <*> to slot <*>
+INFO org.apache.storm.daemon.supervisor.Container: Missing topology storm code, so can\'t launch  worker with assignment <*> for this supervisor <*> on port <*> with id <*>
+<INIT> org.apache.storm.daemon.supervisor.Container: Missing required topology files...
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.ras.acker.executors.per.worker
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.acker.executors
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Config <*> set to: <*> for topology: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Config <*> set to: <*> for topology: <*>
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: clean up worker <*>
+INFO org.apache.storm.container.oci.RuncLibContainerManager: port unknown for workerId <*>, looking up from <*>
+WARN org.apache.storm.container.oci.RuncLibContainerManager: Failed cleaning up RuncWorker <*>
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: Removing <*> from the watched workers list
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Shutting down master
+INFO org.apache.storm.daemon.nimbus.Nimbus: Shut down master
+INFO org.apache.storm.daemon.metrics.reporters.JmxPreparableReporter: Preparing...
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorter: Rack <*>: Overall Avail [ <*> ] Total [ <*> ]
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Sorted Object Resources: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Assigning <*> to <*> slots
+INFO org.apache.storm.daemon.nimbus.Nimbus: Assign executors: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Reassigning <*> to <*> slots
+INFO org.apache.storm.daemon.nimbus.Nimbus: Reassign executors: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: <*> assignments unchanged: <*>
+DEBUG org.apache.storm.daemon.supervisor.timer.ReportWorkerHeartbeats: Worker are using pacemaker to send worker heartbeats so skip reporting by supervisor.
+INFO org.apache.storm.localizer.AsyncLocalizer: recoverRunningTopology for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> already has a reservation for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> already has a reservation for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> already has a reservation for <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: fetching blob: <*>
+ERROR org.apache.storm.localizer.AsyncLocalizer: Failed to get remote blobstore update time
+ERROR org.apache.storm.localizer.AsyncLocalizer: Failed to get remote blobstore update time
+ERROR org.apache.storm.localizer.AsyncLocalizer: Failed to get remote blobstore update time
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Recovered blobs <*> <*>
+INFO org.apache.storm.daemon.supervisor.Slot: SLOT <*>:<*> Starting in state <*> - assignment <*>
+DEBUG org.apache.storm.daemon.supervisor.Slot: STATE <*>
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+INFO org.apache.storm.daemon.supervisor.Container: Cleaning up <*>:<*>
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+INFO org.apache.storm.daemon.supervisor.Container: REMOVE worker-user <*>
+INFO org.apache.storm.daemon.supervisor.Slot$DynamicState: Canceling download of <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: Releasing slot for <*> <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Removing reference <*> from <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Removing reference <*> from <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> had no reservation for <*>, current references are <*> with last update at <*>
+INFO org.apache.storm.daemon.supervisor.Slot$DynamicState: Canceling download of <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: requestDownloadTopologyBlobs for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+INFO org.apache.storm.daemon.supervisor.Slot: STATE <*> -> <*>
+WARN org.apache.storm.LocalCluster: Adding tracked metrics for ID <*>
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using custom scheduler: <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw InstantiationException <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw InstantiationException <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.LocalCluster: Starting Nimbus server...
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: <*> is false. Using default resource isolation plugin: <*>
+INFO org.apache.storm.daemon.supervisor.ReadClusterState: Killing detached workers <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys StreamsStat <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get TopologySummaryByName info exception.
+INFO org.apache.storm.daemon.nimbus.Nimbus: Delaying event <*> for <*> secs for <*>
+DEBUG org.apache.storm.scheduler.utils.ConfigLoaderFactoryService: Config <*> is not set.
+DEBUG org.apache.storm.scheduler.utils.SchedulerConfigCache: skip refreshing scheduler config since cache is not yet expired;
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+INFO org.apache.storm.daemon.nimbus.Nimbus: TRANSITION: <*> <*> <*> <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Adding topo to history log: <*>
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get TopologySummaryById info exception.
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+WARN org.apache.storm.daemon.nimbus.Nimbus: get topology ino exception. (topology id=<*>)
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+WARN org.apache.storm.nimbus.DefaultTopologyValidator: Metrics for topology name \'<*>\' will be reported as \'<*>\'.
+WARN org.apache.storm.nimbus.DefaultTopologyValidator: Metrics for stream name \'<*>\' will be reported as \'<*>\'.
+WARN org.apache.storm.nimbus.DefaultTopologyValidator: Metrics for bolt name \'<*>\' will be reported as \'<*>\'.
+WARN org.apache.storm.nimbus.DefaultTopologyValidator: Metrics for stream name \'<*>\' will be reported as \'<*>\'.
+INFO org.apache.storm.localizer.LocalizedResource: Blob: <*> updated to version <*> from version <*>
+WARN org.apache.storm.LocalCluster: Adding tracked metrics for ID <*>
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using default scheduler
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw InstantiationException <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw unexpected exception <*> <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+DEBUG org.apache.storm.localizer.AsyncLocalizer: reconstructing resources owned by <*>
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: Using resource isolation plugin <*>: <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+WARN org.apache.storm.testing.TrackedTopology: Reading tracked metrics for ID <*>
+WARN org.apache.storm.testing.TrackedTopology: Reading tracked metrics for ID <*>
+WARN org.apache.storm.testing.TrackedTopology: Reading tracked metrics for ID <*>
+INFO org.apache.storm.testing.TrackedTopology: emitted <*> target <*> transferred <*> processed <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: get blob replication exception.
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+TRACE org.apache.storm.scheduler.resource.ResourceUtils: Turned <*> into <*>
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get topo page info exception. (topology id=\'<*>\')
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys StreamsStat <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys StreamsStat <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: For netty authentication, topo conf is: <*>, cluster conf is: <*>, Enforce netty auth: <*>
+INFO org.apache.storm.container.oci.OciUtils: <*> is not set for topology <*>; set it to the default image <*> configured in <*>
+REMOVE org.apache.storm.daemon.nimbus.Nimbus: topology.submitter.principal
+PUT org.apache.storm.daemon.supervisor.Container: topology.submitter.user
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.users
+REMOVE org.apache.storm.daemon.nimbus.Nimbus: storm.zookeeper.topology.auth.scheme
+REMOVE org.apache.storm.daemon.nimbus.Nimbus: storm.zookeeper.topology.auth.payload
+WARN org.apache.storm.nimbus.TimeOutWorkerHeartbeatsRecoveryStrategy: Failed to recover heartbeats for nodes: <*> with timeout <*>s
+WARN org.apache.storm.LocalCluster$Builder: nimbusDaemon is null
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using custom scheduler: <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw InstantiationException <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Can\'t find <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.metric.StormMetricsRegistry: Started statistics report plugin...
+INFO org.apache.storm.daemon.nimbus.Nimbus: Shutting down master
+INFO org.apache.storm.daemon.nimbus.Nimbus: Shut down master
+INFO org.apache.storm.LocalCluster: shutting down thrift server
+INFO org.apache.storm.LocalCluster: Shutting down in process zookeeper
+INFO org.apache.storm.LocalCluster: Done shutting down in process zookeeper
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+DEBUG org.apache.storm.localizer.AsyncLocalizer: reconstructing resources owned by <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: KeyList from blobstore <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.ras.acker.executors.per.worker
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.acker.executors
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Config <*> set to: <*> for topology: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Config <*> set to: <*> for topology: <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+DEBUG org.apache.storm.daemon.nimbus.HeartbeatCache: Computing alive executors for <*>\nExecutors: <*>\nAssignment: <*>\nHeartbeat cache: <*>
+INFO org.apache.storm.daemon.nimbus.HeartbeatCache: Executor <*>:<*> not alive
+INFO org.apache.storm.daemon.nimbus.Nimbus: Shutting down master
+INFO org.apache.storm.daemon.nimbus.Nimbus: Shut down master
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Created blob <*> for session <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: begin create blob exception.
+ERROR org.apache.storm.container.cgroup.CgroupManager: <*> does not exist
+INFO org.apache.storm.container.oci.RuncLibContainerManager: imageTag-to-manifest Plugin is: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get TopologySummaryByName info exception.
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get TopologySummary info exception.
+INFO org.apache.storm.scheduler.resource.RasNodes: Found an assigned slot(s) on a dead supervisor <*> with assignments <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: The max state search configured by topology <*> is <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: The max state search that will be used by topology <*> is <*>
+INFO org.apache.storm.scheduler.resource.RasNodes: Found an assigned slot(s) on a dead supervisor <*> with assignments <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Cluster:
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Topology <*> <*> Number of ExecutorsNeedScheduling: <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: For topology: <*>, we have sorted execs: <*> and unassigned ackers: <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: scheduleExecutorsOnNodes: will assign <*> executors for topo <*>, sortNodesForEachExecutor=<*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: scheduleExecutorsOnNodes: loopCnt=<*>, execIndex=<*>, topo=<*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: scheduleExecutorsOnNodes: loopCnt=<*>, execIndex=<*>, topo=<*>
+WARN org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Limits exceeded, backtrackCnt=<*>, loopCnt=<*>, topo=<*>
+INFO org.apache.storm.scheduler.resource.strategies.scheduling.SchedulingSearcherState: Topology <*> NodeCompAssignments available for <*> of <*> nodes <*>
+INFO org.apache.storm.scheduler.resource.strategies.scheduling.SchedulingSearcherState: Topology <*> Executors assignments attempted (cnt=<*>) are: \n\t<*>
+DEBUG org.apache.storm.blobstore.LocalFsBlobStoreSynchronizer: Key list to download <*>
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+TRACE org.apache.storm.scheduler.Cluster: Could not schedule <*>:<*> on <*> HEAP would be too large <*> > <*>
+DEBUG org.apache.storm.daemon.supervisor.BasicContainer: Enforcing memory usage for <*> with usage of <*> out of <*> total and a hard limit of <*>
+WARN org.apache.storm.daemon.supervisor.BasicContainer: <*> is using <*> MB > adjusted hard limit <*> MB
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+DEBUG org.apache.storm.localizer.AsyncLocalizer: No left over resources found for any user
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: KeyList from blobstore <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Sequence Info <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Latest Sequence Number <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: getNimbodesWithLatestSequenceNumberOfBlob stateInfo <*> version <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: nimbusInfoList <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Download blob NimbusInfos <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Download blob key: <*>, NimbusInfo <*>
+DEBUG org.apache.storm.blobstore.LocalFsBlobStore: Updating blobs state
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.ConstraintSolverStrategy: Checking for a valid scheduling for topology <*>...
+WARN org.apache.storm.scheduler.resource.strategies.scheduling.ConstraintSolverConfig: TopoId <*>: No config supplied for <*>
+WARN org.apache.storm.scheduler.resource.strategies.scheduling.ConstraintSolverConfig: TopoId <*>: Invalid Component <*> declared in spread <*>
+INFO org.apache.storm.scheduler.resource.RasNodes: Found an assigned slot(s) on a dead supervisor <*> with assignments <*>
+INFO org.apache.storm.scheduler.resource.RasNodes: Found an assigned slot(s) on a dead supervisor <*> with assignments <*>
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.strategies.scheduling.ConstraintSolverStrategy: Topology <*> solution is invalid\n\t<*>
+INFO org.apache.storm.container.oci.RuncLibContainerManager: manifest to resource Plugin is: <*>
+DEBUG org.apache.storm.localizer.LocalizedResource: size of <*> is: <*>
+INFO org.apache.storm.nimbus.LeaderListenerCallback: Sync remote assignments and id-info to local
+INFO org.apache.storm.nimbus.LeaderListenerCallback: active-topology-blobs [<*>] local-topology-blobs [<*>] diff-topology-blobs [<*>]
+INFO org.apache.storm.nimbus.LeaderListenerCallback: active-topology-dependencies [<*>] local-blobs [<*>] diff-topology-dependencies [<*>]
+INFO org.apache.storm.nimbus.LeaderListenerCallback: Code for all active topologies is available locally, but some dependencies are not found locally, giving up leadership.
+INFO org.apache.storm.zookeeper.LeaderListenerCallbackFactory$1: <*> gained leadership.
+INFO org.apache.storm.daemon.supervisor.Container: Force Killing <*>:<*>
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+WARN org.apache.storm.scheduler.resource.strategies.scheduling.ConstraintSolverConfig: TopoId <*>: No config supplied for <*>
+WARN org.apache.storm.scheduler.resource.strategies.scheduling.ConstraintSolverConfig: TopoId <*>: Invalid Component <*> declared in spread <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys StreamsStat <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys StreamsStat <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys StreamsStat <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys StreamsStat <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+WARN org.apache.storm.daemon.nimbus.Nimbus: getComponentPageInfo exception. (topo id=\'<*>\')
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD: <*>
+INFO org.apache.storm.utils.ServerUtils: None of the processes <*> are alive
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+TRACE org.apache.storm.scheduler.resource.ResourceUtils: Turned <*> into <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.kryo.register
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.kryo.decorators
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.acker.executors
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.eventlogger.executors
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.max.task.parallelism
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: For netty authentication, topo conf is: <*>, cluster conf is: <*>, Enforce netty auth: <*>
+WARN org.apache.storm.container.oci.OciUtils: <*> is not configured; this indicates OCI container is not supported; <*> config for topology <*> will be removed
+REMOVE org.apache.storm.daemon.nimbus.Nimbus: topology.submitter.principal
+PUT org.apache.storm.daemon.supervisor.Container: topology.submitter.user
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.users
+REMOVE org.apache.storm.daemon.nimbus.Nimbus: storm.zookeeper.topology.auth.scheme
+REMOVE org.apache.storm.daemon.nimbus.Nimbus: storm.zookeeper.topology.auth.payload
+REMOVE org.apache.storm.daemon.nimbus.Nimbus: topology.classpath.beginning
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.tasks
+TRACE org.apache.storm.scheduler.resource.ResourceUtils: Turned <*> into <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.ras.acker.executors.per.worker
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.acker.executors
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Config <*> set to: <*> for topology: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Config <*> set to: <*> for topology: <*>
+TRACE org.apache.storm.scheduler.resource.ResourceUtils: Turned <*> into <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.eventlogger.executors
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Config <*> set to: <*> for topology: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Received topology submission for <*> (storm-<*> JDK-<*>) with conf <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: uploadedJar <*> for <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Checking if I am still the leader
+INFO org.apache.storm.daemon.nimbus.Nimbus: WAITING... storm-id <*>, <*> <? <*> <*> <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: WAITING... <*> <? <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: desired replication count <*> achieved for topology <*>, current-replication-count for conf key = <*>, current-replication-count for code key = <*>, current-replication-count for jar key = <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Activating <*>: <*>
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.zookeeper.AclEnforcement: Creating missing errors location <*>
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+DEBUG org.apache.storm.container.oci.OciUtils: <*> is not configured; skip image validation
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using forced scheduler from INimbus <*> <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Can\'t find <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw InstantiationException <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting nimbus server for storm version \'<*>\'
+INFO org.apache.storm.daemon.nimbus.Nimbus: Shutting down master
+INFO org.apache.storm.daemon.nimbus.Nimbus: Shut down master
+ERROR org.apache.storm.scheduler.utils.ArtifactoryConfigLoader: No URI defined in <*> configuration.
+INFO org.apache.storm.event.EventManagerImp$1: Event manager interrupted
+INFO org.apache.storm.daemon.supervisor.Container: Force Killing <*>:<*>
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD: tasklist /fo list /fi \pid eq <*>\ /v
+DEBUG org.apache.storm.utils.ServerUtils: CMD=LINE#<*>: <*>
+ERROR org.apache.storm.utils.ServerUtils: Received unexpected output from tasklist command. Expected one colon in user name line. Line was <*>
+WARN org.apache.storm.LocalCluster$Builder: nimbusDaemon is null
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using forced scheduler from INimbus <*> <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Can\'t find <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Can\'t find <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: Using resource isolation plugin <*>: <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: recoverRunningTopology for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> already has a reservation for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: fetching blob: <*>
+ERROR org.apache.storm.localizer.AsyncLocalizer: Failed to get remote blobstore update time
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Recovered blobs <*> <*>
+INFO org.apache.storm.daemon.supervisor.Slot: SLOT <*>:<*> Starting in state <*> - assignment <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+DEBUG org.apache.storm.localizer.AsyncLocalizer: No left over resources found for any user
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: Using resource isolation plugin <*>: <*>
+INFO org.apache.storm.daemon.supervisor.ReadClusterState: Killing detached workers <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.metric.StormMetricsRegistry: Started statistics report plugin...
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+DEBUG org.apache.storm.metricstore.rocksdb.StringMetadataCache: Writing <*> to RocksDB
+INFO org.apache.storm.metricstore.rocksdb.MetricsCleaner: Purging metrics before <*>
+INFO org.apache.storm.metricstore.rocksdb.RocksDbStore: Deleting <*> metrics
+INFO org.apache.storm.metricstore.rocksdb.RocksDbStore: Deleting <*> metadata strings
+INFO org.apache.storm.metricstore.rocksdb.MetricsCleaner: Purging metrics before <*>
+INFO org.apache.storm.metricstore.rocksdb.RocksDbStore: Deleting <*> metadata strings
+INFO org.apache.storm.metricstore.rocksdb.MetricsCleaner: Purging metrics before <*>
+INFO org.apache.storm.metricstore.rocksdb.RocksDbStore: Deleting <*> metadata strings
+INFO org.apache.storm.daemon.supervisor.Container: Missing topology storm code, so can\'t launch  worker with assignment <*> for this supervisor <*> on port <*> with id <*>
+<INIT> org.apache.storm.daemon.supervisor.Container: Missing required topology files...
+DEBUG org.apache.storm.daemon.supervisor.BasicContainer: Supervisor is using <*> as the <*>.The profiler set at worker.profiler.script.path in worker-launcher.cfg is the only profiler to be used. Please make sure it is configured properly
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Scheduling topology <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Topology <*> is isolated
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes... requested <*> used <*> available from us <*> avail from other <*> needed <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes... needed from us <*> needed from others <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: Trying to grab <*> free nodes from <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: Got <*> nodes so far need <*> more nodes
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Taking <*> from <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Topology <*> is isolated
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes... requested <*> used <*> available from us <*> avail from other <*> needed <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes... needed from us <*> needed from others <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: Trying to grab <*> free nodes from <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: Got <*> nodes so far need <*> more nodes
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Taking <*> from <*>
+WARN org.apache.storm.scheduler.multitenant.Node: Freeing all slots on a dead node <*> 
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Topology <*> is isolated
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes... requested <*> used <*> available from us <*> avail from other <*> needed <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes... needed from us <*> needed from others <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: Trying to grab <*> free nodes from <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Taking <*> from <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool$RoundRobinSlotScheduler: Scheduling for <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool$RoundRobinSlotScheduler: Assigning <*> <*> to slot <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes sorted by free space <*>
+ERROR org.apache.storm.scheduler.multitenant.IsolatedPool: No nodes to use to assign topology <*>
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Host <*>: Overall Avail [ <*> ] Total [ <*> ]
+TRACE org.apache.storm.scheduler.resource.normalization.NormalizedResources: Calculating min percentage used by. Used Mem: <*> Total Mem: <*> Used Normalized Resources: <*> Total Normalized Resources: <*>
+TRACE org.apache.storm.scheduler.resource.normalization.NormalizedResources: Calculating min percentage used by. Used Mem: <*> Total Mem: <*> Used Normalized Resources: <*> Total Normalized Resources: <*>
+TRACE org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: for <*>: minResourcePercent=<*>, avgResourcePercent=<*>, numExistingSchedule=<*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Sorted Object Resources: <*>
+ERROR org.apache.storm.scheduler.EvenScheduler: No available slots for topology: <*>
+WARN org.apache.storm.healthcheck.HealthChecker: The healthcheck process <*> exited with code: <*>; output: <*>; err: <*>.
+WARN org.apache.storm.healthcheck.HealthChecker: Script failed with exception: 
+WARN org.apache.storm.healthcheck.HealthChecker: The healthcheck process <*> exited with code: <*>; output: <*>; err: <*>.
+INFO org.apache.storm.healthcheck.HealthChecker: The healthcheck script [ <*> ] exited with status: <*>
+WARN org.apache.storm.healthcheck.HealthChecker: The supervisor healthchecks failed!!!
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Scheduling topology <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Topology <*> is isolated
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes... requested <*> used <*> available from us <*> avail from other <*> needed <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes... needed from us <*> needed from others <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: Trying to grab <*> free nodes from <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: Got <*> nodes so far need <*> more nodes
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Taking <*> from <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Topology <*> is isolated
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes... requested <*> used <*> available from us <*> avail from other <*> needed <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes... needed from us <*> needed from others <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: Trying to grab <*> free nodes from <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Taking <*> from <*>
+WARN org.apache.storm.scheduler.multitenant.Node: Freeing all slots on a dead node <*> 
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes sorted by free space <*>
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get TopologySummary info exception.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+INFO org.apache.storm.daemon.nimbus.Nimbus: TRANSITION: <*> <*> <*> <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Cannot apply event <*> to <*> because topology no longer exists
+INFO org.apache.storm.daemon.nimbus.Nimbus: Adding topo to history log: <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: get topology ino exception. (topology id=<*>)
+DEBUG org.apache.storm.Testing: Looping until <*>
+INFO org.apache.storm.Testing: Condition <*> not met in <*> ms after calling <*> times
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorter: Cluster Overall Avail [ <*> ] Total [ <*> ]
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Sorted Object Resources: <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: fetching blob: <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> already has a reservation for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+ERROR org.apache.storm.localizer.AsyncLocalizer: Failed to get remote blobstore update time
+ERROR org.apache.storm.localizer.AsyncLocalizer: Failed to get remote blobstore update time
+WARN org.apache.storm.scheduler.resource.strategies.scheduling.sorter.ExecSorterByProximity: topologicalSortComponents for topology <*> detected possible loop(s) involving components <*>, appending them to the end of the sorted component list
+DEBUG org.apache.storm.Testing: Looping until <*>
+INFO org.apache.storm.Testing: Condition <*> not met in <*> ms after calling <*> times
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+WARN org.apache.storm.daemon.nimbus.Nimbus: Got invalid NumErrorsChoice \'<*>\'
+WARN org.apache.storm.daemon.nimbus.Nimbus: get topology ino exception. (topology id=<*>)
+TRACE org.apache.storm.scheduler.Cluster: Could not schedule <*>:<*> on <*> not enough CPU <*> > <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Finished uploading blob for session <*>. Closing session.
+INFO org.apache.storm.daemon.supervisor.BasicContainer$ProcessExitCallback: <*> exited with code: <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+WARN org.apache.storm.daemon.supervisor.SupervisorUtils: Failed to read local heartbeat for workerId : <*>,Ignoring exception.
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+INFO org.apache.storm.daemon.nimbus.Nimbus: TRANSITION: <*> <*> <*> <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Adding topo to history log: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Delaying event <*> for <*> secs for <*>
+WARN org.apache.storm.healthcheck.HealthChecker: The healthcheck process <*> exited with code: <*>; output: <*>; err: <*>.
+DEBUG org.apache.storm.blobstore.LocalFsBlobStore: blob-sync blob-store-keys <*> zookeeper-keys <*>
+DEBUG org.apache.storm.blobstore.LocalFsBlobStoreSynchronizer: Sync blobs - blobstore keys <*>, zookeeper keys <*>
+DEBUG org.apache.storm.blobstore.LocalFsBlobStoreSynchronizer: Key set to delete in blobstore <*>
+DEBUG org.apache.storm.blobstore.LocalFsBlobStoreSynchronizer: updating blob
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: StateInfo for update <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Sequence Info <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Latest Sequence Number <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: getNimbodesWithLatestSequenceNumberOfBlob stateInfo <*> version <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: nimbusInfoList <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Download blob NimbusInfos <*>
+ERROR org.apache.storm.blobstore.BlobStoreUtils: Could not update the blob with key: <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Updating state inside zookeeper for an update
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: StateInfo for update <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Latest Sequence Number <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: getNimbodesWithLatestSequenceNumberOfBlob stateInfo <*> version <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: nimbusInfoList <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Download blob NimbusInfos <*>
+ERROR org.apache.storm.blobstore.BlobStoreUtils: Could not update the blob with key: <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Updating state inside zookeeper for an update
+DEBUG org.apache.storm.blobstore.LocalFsBlobStoreSynchronizer: Key list to download <*>
+DEBUG org.apache.storm.blobstore.LocalFsBlobStoreSynchronizer: Key set Blobstore-> Zookeeper-> DownloadSet <*>-> <*>-> <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+WARN org.apache.storm.daemon.nimbus.Nimbus: Got invalid NumErrorsChoice \'<*>\'
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: get topology info withOpts by name exception. (topology name=<*>)
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+TRACE org.apache.storm.scheduler.resource.ResourceUtils: Turned <*> into <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.kryo.register
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.kryo.decorators
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.acker.executors
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.eventlogger.executors
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.max.task.parallelism
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: For netty authentication, topo conf is: <*>, cluster conf is: <*>, Enforce netty auth: <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.metrics.reporters
+PUT org.apache.storm.daemon.supervisor.Container: topology.worker.timeout.secs
+WARN org.apache.storm.daemon.nimbus.Nimbus: Topology <*> topology.worker.timeout.secs is too large. Reducing from <*> to <*>
+WARN org.apache.storm.container.oci.OciUtils: <*> is not configured; this indicates OCI container is not supported; <*> config for topology <*> will be removed
+REMOVE org.apache.storm.daemon.nimbus.Nimbus: topology.submitter.principal
+PUT org.apache.storm.daemon.supervisor.Container: topology.submitter.user
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.users
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.tasks
+DEBUG org.apache.storm.Testing: Looping until <*>
+INFO org.apache.storm.Testing: Condition <*> not met in <*> ms after calling <*> times
+DEBUG org.apache.storm.container.oci.OciUtils: <*> is not configured; skip image validation
+DEBUG org.apache.storm.utils.ServerUtils: Extracting <*> shortened to <*> into <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Delaying event <*> for <*> secs for <*>
+INFO org.apache.storm.scheduler.resource.RasNodes: Found an assigned slot(s) on a dead supervisor <*> with assignments <*>
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+DEBUG org.apache.storm.daemon.supervisor.Slot: STATE <*>
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+INFO org.apache.storm.daemon.supervisor.Container: Force Killing <*>:<*>
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.ras.acker.executors.per.worker
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.acker.executors
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Config <*> set to: <*> for topology: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Config <*> set to: <*> for topology: <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: KeyList from blobstore <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: StateInfo for update <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Latest Sequence Number <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: getNimbodesWithLatestSequenceNumberOfBlob stateInfo <*> version <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: nimbusInfoList <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+ADD org.apache.storm.daemon.supervisor.BasicContainer: -Dlogfile.name=worker.log
+ADD org.apache.storm.daemon.supervisor.BasicContainer: -DLogjContextSelector=org.apache.logging.logj.core.selector.BasicContextSelector
+DEBUG org.apache.storm.pacemaker.Pacemaker: Deleting Pulse for id [ <*> ].
+WARN org.apache.storm.LocalCluster: Adding tracked metrics for ID <*>
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using forced scheduler from INimbus <*> <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw InstantiationException <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw IllegalAccessException <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+DEBUG org.apache.storm.localizer.AsyncLocalizer: No left over resources found for any user
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: Using resource isolation plugin <*>: <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: recoverRunningTopology for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> already has a reservation for <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Recovered blobs <*> <*>
+INFO org.apache.storm.daemon.supervisor.Slot: SLOT <*>:<*> Starting in state <*> - assignment <*>
+INFO org.apache.storm.daemon.supervisor.ReadClusterState: Killing detached workers <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.metric.StormMetricsRegistry: Started statistics report plugin...
+INFO org.apache.storm.localizer.LocalizedResource: completelyRemoveUnusedUser <*> for directory <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: local blob <*> downloaded, in sync with remote blobstore to time <*>
+DEBUG org.apache.storm.Testing: Looping until <*>
+DEBUG org.apache.storm.Testing: Condition met <*>
+WARN org.apache.storm.scheduler.multitenant.Node: Freeing all slots on a dead node <*> 
+WARN org.apache.storm.daemon.supervisor.SupervisorUtils: Failed to read local heartbeat for workerId : <*>,Ignoring exception.
+WARN org.apache.storm.daemon.supervisor.SupervisorUtils: Failed to read local heartbeat for workerId : <*>,Ignoring exception.
+ERROR org.apache.storm.daemon.supervisor.timer.ReportWorkerHeartbeats: Read local worker heartbeats error, skipping heartbeats for this round, msg:<*>
+DEBUG org.apache.storm.daemon.supervisor.timer.ReportWorkerHeartbeats: Worker are using pacemaker to send worker heartbeats so skip reporting by supervisor.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+TRACE org.apache.storm.scheduler.Cluster: Could not schedule <*>:<*> on <*> not enough Mem <*> > <*>
+TRACE org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Topology <*>, executor <*> would not fit in resources available on worker <*>
+DEBUG org.apache.storm.scheduler.utils.FileConfigLoaderFactory: scheme <*> not supported in this factory.
+INFO org.apache.storm.metricstore.rocksdb.RocksDbStore: Deleting <*> metadata strings
+DEBUG org.apache.storm.localizer.LocalizedResourceRetentionSet: cleanup target size: <*> current size is: <*>
+INFO org.apache.storm.LocalCluster: \n\n\t\tSTARTING LOCAL MODE CLUSTER\n\n
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using forced scheduler from INimbus <*> <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw InstantiationException <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Can\'t find <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.LocalCluster: Starting Nimbus server...
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: Using resource isolation plugin <*>: <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: Using resource isolation plugin <*>: <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.LocalCluster: \n\n\t\tRUNNING LOCAL CLUSTER for <*> seconds.\n\n
+INFO org.apache.storm.LocalCluster: \n\n\t\tSTOPPING LOCAL MODE CLUSTER\n\n
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Scheduling topology <*>
+DEBUG org.apache.storm.scheduler.multitenant.DefaultPool: Slots... requested <*> used <*> free <*> available <*> to be used <*>, executors not running <*>
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+ERROR org.apache.storm.scheduler.utils.ArtifactoryConfigLoader: Failed to parse uri=<*>
+DEBUG org.apache.storm.scheduler.utils.SchedulerConfigCache: refreshing scheduler config since cache is expired
+WARN org.apache.storm.LocalCluster$Builder: nimbusDaemon is null
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using forced scheduler from INimbus <*> <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Can\'t find <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw unexpected exception <*> <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.LocalCluster: Starting Nimbus server...
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: <*> is false. Using default resource isolation plugin: <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: Using resource isolation plugin <*>: <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: Using resource isolation plugin <*>: <*>
+INFO org.apache.storm.daemon.supervisor.Supervisor: Shutting down supervisor <*>
+INFO org.apache.storm.LocalCluster: Shutting down in process zookeeper
+INFO org.apache.storm.LocalCluster: Done shutting down in process zookeeper
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: clean up worker <*>
+INFO org.apache.storm.container.oci.RuncLibContainerManager: port unknown for workerId <*>, looking up from <*>
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: Removing <*> from the watched workers list
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+DEBUG org.apache.storm.blobstore.LocalFsBlobStoreSynchronizer: updating blob
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: StateInfo for update <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Latest Sequence Number <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: getNimbodesWithLatestSequenceNumberOfBlob stateInfo <*> version <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: nimbusInfoList <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Download blob NimbusInfos <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Updating state inside zookeeper for an update
+DEBUG org.apache.storm.utils.ServerUtils: CMD: ps -o user -p <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-LINE#<*>: <*>
+INFO org.apache.storm.daemon.supervisor.Container: Killing <*>:<*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+TRACE org.apache.storm.scheduler.resource.ResourceUtils: Turned <*> into <*>
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+WARN org.apache.storm.nimbus.AssignmentDistributionService: Discard an assignment distribution for node <*> because the target sub queue is full.
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Supervisors <*> are blacklisted.
+DEBUG org.apache.storm.Testing: Looping until <*>
+DEBUG org.apache.storm.Testing: Condition met <*>
+WARN org.apache.storm.scheduler.resource.strategies.scheduling.ConstraintSolverConfig: TopoId <*>: No config supplied for <*>
+INFO org.apache.storm.scheduler.resource.RasNodes: Found an assigned slot(s) on a dead supervisor <*> with assignments <*>
+INFO org.apache.storm.metricstore.rocksdb.MetricsCleaner: Purging metrics before <*>
+INFO org.apache.storm.metricstore.rocksdb.RocksDbStore: Deleting <*> metrics
+INFO org.apache.storm.metricstore.rocksdb.RocksDbStore: Deleting <*> metadata strings
+DEBUG org.apache.storm.blobstore.LocalFsBlobStore: blob-sync blob-store-keys <*> zookeeper-keys <*>
+DEBUG org.apache.storm.blobstore.LocalFsBlobStoreSynchronizer: Sync blobs - blobstore keys <*>, zookeeper keys <*>
+DEBUG org.apache.storm.blobstore.LocalFsBlobStoreSynchronizer: Key set to delete in blobstore <*>
+DEBUG org.apache.storm.blobstore.LocalFsBlobStoreSynchronizer: updating blob
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: StateInfo for update <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Latest Sequence Number <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: getNimbodesWithLatestSequenceNumberOfBlob stateInfo <*> version <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: nimbusInfoList <*>
+DEBUG org.apache.storm.blobstore.LocalFsBlobStoreSynchronizer: Key list to download <*>
+DEBUG org.apache.storm.blobstore.LocalFsBlobStoreSynchronizer: Key set Blobstore-> Zookeeper-> DownloadSet <*>-> <*>-> <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Sequence Info <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Latest Sequence Number <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: getNimbodesWithLatestSequenceNumberOfBlob stateInfo <*> version <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: nimbusInfoList <*>
+DEBUG org.apache.storm.blobstore.LocalFsBlobStoreSynchronizer: syncBlobs, key: <*>, nimbusInfoSet: <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Download blob NimbusInfos <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Download blob key: <*>, NimbusInfo <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get TopologySummaryById info exception.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get topo page info exception. (topology id=\'<*>\')
+DEBUG org.apache.storm.daemon.drpc.DRPC: Got a fail <*>
+INFO org.apache.storm.LocalCluster: Cluster was not idle in <*> ms
+ERROR org.apache.storm.pacemaker.PacemakerServer: Can\'t start pacemaker server without digest secret.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get TopologySummaryByName info exception.
+WARN org.apache.storm.scheduler.resource.strategies.scheduling.ConstraintSolverConfig: TopoId <*>: Invalid Component <*> declared in spread <*>
+INFO org.apache.storm.daemon.supervisor.Slot: SLOT <*>:<*> Starting in state <*> - assignment <*>
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+DEBUG org.apache.storm.scheduler.resource.RasNode: target slot: <*>
+INFO org.apache.storm.scheduler.resource.RasNodes: Found an assigned slot(s) on a dead supervisor <*> with assignments <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: Using resource isolation plugin <*>: <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+INFO org.apache.storm.zookeeper.LeaderElectorImp: LeaderLatch was in closed state. Reset the leaderLatch, and queued for leader lock.
+INFO org.apache.storm.zookeeper.LeaderElectorImp: Queued up for leader lock.
+DEBUG org.apache.storm.Testing: Looping until <*>
+DEBUG org.apache.storm.Testing: Condition met <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: not a leader, skipping credential renewal.
+INFO org.apache.storm.security.auth.workertoken.WorkerTokenManager: Created new WorkerToken for user <*> topology <*> on service <*>
+WARN org.apache.storm.LocalCluster$Builder: nimbusDaemon is null
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using default scheduler
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw unexpected exception <*> <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw IllegalAccessException <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.LocalCluster: Starting Nimbus server...
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+DEBUG org.apache.storm.localizer.AsyncLocalizer: reconstructing resources owned by <*>
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: Using resource isolation plugin <*>: <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.LocalCluster: shutting down thrift server
+INFO org.apache.storm.daemon.supervisor.ReadClusterState: Setting <*> assignment to null
+INFO org.apache.storm.daemon.supervisor.Supervisor: Shutting down supervisor <*>
+WARN org.apache.storm.LocalCluster: Clearing tracked metrics for ID <*>
+WARN org.apache.storm.daemon.supervisor.BasicContainer: Error trying to calculate worker memory usage <*>
+INFO org.apache.storm.daemon.supervisor.Container: Cleaning up <*>:<*>
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+INFO org.apache.storm.daemon.supervisor.Container: REMOVE worker-user <*>
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+WARN org.apache.storm.LocalCluster$Builder: nimbusDaemon is null
+WARN org.apache.storm.LocalCluster: Adding tracked metrics for ID <*>
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using forced scheduler from INimbus <*> <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw InstantiationException <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw InstantiationException <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.LocalCluster: Starting Nimbus server...
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.metric.StormMetricsRegistry: Started statistics report plugin...
+INFO org.apache.storm.daemon.nimbus.Nimbus: Shutting down master
+INFO org.apache.storm.daemon.nimbus.Nimbus: Shut down master
+INFO org.apache.storm.daemon.supervisor.Supervisor: Shutting down supervisor <*>
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+INFO org.apache.storm.scheduler.EvenScheduler: Available slots: <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+TRACE org.apache.storm.scheduler.resource.ResourceUtils: Turned <*> into <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Scheduling topology <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Topology <*> is not isolated
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Slots... requested <*> used <*> free <*> available <*> to be used <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: How many nodes to get <*> slots from <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: Found <*> nodes so far <*> more slots needed
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes... new <*> used <*> max <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: Trying to grab <*> free slots from <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Topology <*> is not isolated
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Slots... requested <*> used <*> free <*> available <*> to be used <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: How many nodes to get <*> slots from <*>
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes... new <*> used <*> max <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: Trying to grab <*> free slots from <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool: Got <*> nodes so far need <*> more slots
+DEBUG org.apache.storm.scheduler.multitenant.NodePool$RoundRobinSlotScheduler: Scheduling for <*>
+DEBUG org.apache.storm.scheduler.multitenant.NodePool$RoundRobinSlotScheduler: Saving <*> for spread...
+DEBUG org.apache.storm.scheduler.multitenant.IsolatedPool: Nodes sorted by free space <*>
+ERROR org.apache.storm.scheduler.multitenant.IsolatedPool: No nodes to use to assign topology <*>
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.SchedulingSearcherState: Topology <*> States Searched: <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.SchedulingSearcherState: Topology <*> backtrack: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Delaying event <*> for <*> secs for <*>
+DEBUG org.apache.storm.daemon.drpc.DRPC: Execute <*> <*>
+DEBUG org.apache.storm.daemon.drpc.DRPC: Waiting for result <*> <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+WARN org.apache.storm.container.oci.OciContainerManager: <*> is not an absolute path. Changing it to be absolute: <*>
+DEBUG org.apache.storm.localizer.LocalizedResource: size of <*> is: <*>
+DEBUG org.apache.storm.metricstore.rocksdb.StringMetadataCache: Writing <*> to RocksDB
+INFO org.apache.storm.daemon.supervisor.Supervisor: Shutting down supervisor <*>
+INFO org.apache.storm.daemon.supervisor.Supervisor: Shutting down supervisor <*>
+INFO org.apache.storm.daemon.supervisor.Container: Cleaning up <*>:<*>
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+INFO org.apache.storm.daemon.supervisor.Container: REMOVE worker-user <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Sorted Object Resources: <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+TRACE org.apache.storm.scheduler.resource.strategies.scheduling.SchedulingSearcherState: Topology <*> Backtracking <*> <*> from <*>
+DEBUG org.apache.storm.scheduler.resource.RasNode: freeing WorkerSlot <*> on node <*>
+DEBUG org.apache.storm.scheduler.resource.RasNode: target slot: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Activating <*>: <*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: Download blob NimbusInfos <*>
+ERROR org.apache.storm.blobstore.BlobStoreUtils: Could not update the blob with key: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Finished uploading blob for session <*>. Closing session.
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys StreamsStat <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys StreamsStat <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Created upload session for <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: begin update blob exception.
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Updating heartbeats for <*> <*> (from ZK heartbeat)
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Updating heartbeats for <*> <*> (from ZK heartbeat)
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Updating heartbeats for <*> <*> (from ZK heartbeat)
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+DEBUG org.apache.storm.daemon.nimbus.HeartbeatCache: Computing alive executors for <*>\nExecutors: <*>\nAssignment: <*>\nHeartbeat cache: <*>
+INFO org.apache.storm.daemon.nimbus.HeartbeatCache: Executor <*>:<*> not alive
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Scheduling took <*> ms for <*> topologies
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Removing <*> from <*> slots
+INFO org.apache.storm.daemon.nimbus.Nimbus: Remove executors: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Assigning <*> to <*> slots
+INFO org.apache.storm.daemon.nimbus.Nimbus: Assign executors: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: <*> assignments unchanged: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Assignment for <*> hasn\'t changed
+WARN org.apache.storm.nimbus.AssignmentDistributionService: Discard an assignment distribution for node <*> because server port info is missing.
+ERROR org.apache.storm.nimbus.AssignmentDistributionService: Add node assignments interrupted: <*>
+WARN org.apache.storm.nimbus.AssignmentDistributionService: Discard an assignment distribution for node <*> because the target sub queue is full.
+WARN org.apache.storm.nimbus.AssignmentDistributionService: Discard an assignment distribution for node <*> because the target sub queue is full.
+DEBUG org.apache.storm.utils.ServerUtils: CMD: tasklist /fo list /fi \pid eq <*>\ /v
+ERROR org.apache.storm.metricstore.rocksdb.RocksDbMetricsWriter: Failed to generate unique ids
+ERROR org.apache.storm.metricstore.rocksdb.RocksDbMetricsWriter: Failed to generate unique ids
+ERROR org.apache.storm.metricstore.rocksdb.RocksDbMetricsWriter: Failed to generate unique ids
+ERROR org.apache.storm.metricstore.rocksdb.RocksDbMetricsWriter: Failed to generate unique ids
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Uploading file from client to <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Begin file upload exception
+DEBUG org.apache.storm.localizer.LocalizedResourceRetentionSet: cleanup target size: <*> current size is: <*>
+INFO org.apache.storm.localizer.LocalizedResourceRetentionSet: Deleted blob: <*> (REMOVED FROM CLUSTER).
+ERROR org.apache.storm.scheduler.EvenScheduler: No available slots for topology: <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get topo conf exception. (topology id=\'<*>\')
+TRACE org.apache.storm.scheduler.resource.normalization.NormalizedResources: Calculating min percentage used by. Used Mem: <*> Total Mem: <*> Used Normalized Resources: <*> Total Normalized Resources: <*>
+TRACE org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: for <*>: minResourcePercent=<*>, avgResourcePercent=<*>, numExistingSchedule=<*>
+INFO org.apache.storm.zookeeper.LeaderElectorImp: Leader latch is not started so no removeFromLeaderLockQueue needed.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+REMOVE org.apache.storm.daemon.nimbus.Nimbus: topology.submitter.principal
+PUT org.apache.storm.daemon.supervisor.Container: topology.submitter.user
+REMOVE org.apache.storm.daemon.nimbus.Nimbus: storm.zookeeper.topology.auth.scheme
+REMOVE org.apache.storm.daemon.nimbus.Nimbus: storm.zookeeper.topology.auth.payload
+REMOVE org.apache.storm.daemon.nimbus.Nimbus: topology.classpath.beginning
+INFO org.apache.storm.daemon.nimbus.Nimbus: TRANSITION: <*> <*> <*> <*>
+ERROR org.apache.storm.localizer.AsyncLocalizer: Failed to get remote blobstore update time
+WARN org.apache.storm.daemon.supervisor.SupervisorUtils: Failed to read local heartbeat for workerId : <*>,Ignoring exception.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+DEBUG org.apache.storm.daemon.supervisor.Slot: found changing blobs <*> moving them to pending...
+INFO org.apache.storm.LocalCluster: Cluster was not idle in <*> ms
+INFO org.apache.storm.LocalCluster: Cluster was not idle in <*> ms
+INFO org.apache.storm.LocalCluster: Cluster was not idle in <*> ms
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: recoverRunningTopology for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> already has a reservation for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Recovered blobs <*> <*>
+INFO org.apache.storm.daemon.supervisor.Slot: SLOT <*>:<*> Starting in state <*> - assignment <*>
+INFO org.apache.storm.scheduler.resource.RasNodes: Found an assigned slot(s) on a dead supervisor <*> with assignments <*>
+INFO org.apache.storm.daemon.supervisor.Slot$DynamicState: Canceling download of <*>
+DEBUG org.apache.storm.pacemaker.Pacemaker: Deleting Pulse for id [ <*> ].
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Cluster:
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Rack: <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: -> Node: <*> <*>
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: --> Avail Resources: {Mem <*>, CPU <*> Slots: <*>}
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: --> Total Resources: {Mem <*>, CPU <*> Slots: <*>}
+DEBUG org.apache.storm.utils.ServerUtils: CMD: ps -o user -p <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-LINE#<*>: <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+TRACE org.apache.storm.scheduler.resource.ResourceUtils: Turned <*> into <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get topo page info exception. (topology id=\'<*>\')
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+INFO org.apache.storm.security.auth.workertoken.WorkerTokenManager: Created new WorkerToken for user <*> topology <*> on service <*>
+DEBUG org.apache.storm.localizer.LocalizedResource: size of <*> is: <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+TRACE org.apache.storm.scheduler.resource.strategies.scheduling.SchedulingSearcherState: Topology <*> Backtracking <*> <*> from <*>
+DEBUG org.apache.storm.scheduler.resource.RasNode: freeing WorkerSlot <*> on node <*>
+WARN org.apache.storm.container.oci.RuncLibContainerManager: <*> doesn\'t exist
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: Checking container <*>, pid <*>, user <*>
+DEBUG org.apache.storm.container.oci.RuncLibContainerManager: WorkerId <*>: Checking areAllProcessesDead: <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: recoverRunningTopology for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Recovered blobs <*> <*>
+INFO org.apache.storm.daemon.supervisor.Slot: SLOT <*>:<*> Starting in state <*> - assignment <*>
+DEBUG org.apache.storm.security.auth.DefaultHttpCredentialsPlugin: Get user name <*> from http request principal
+INFO org.apache.storm.LocalCluster: Using ZooKeeper at \'<*>\' instead of in-process one.
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+INFO org.apache.storm.LocalCluster: \n\n\t\tSTARTING LOCAL MODE CLUSTER\n\n
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using forced scheduler from INimbus <*> <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Can\'t find <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw InstantiationException <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.LocalCluster: Starting Nimbus server...
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: <*> is false. Using default resource isolation plugin: <*>
+INFO org.apache.storm.daemon.supervisor.Slot: SLOT <*>:<*> Starting in state <*> - assignment <*>
+INFO org.apache.storm.daemon.supervisor.Slot: SLOT <*>:<*> Starting in state <*> - assignment <*>
+INFO org.apache.storm.daemon.supervisor.ReadClusterState: Killing detached workers <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: <*> is false. Using default resource isolation plugin: <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.LocalCluster: \n\n\t\tRUNNING LOCAL CLUSTER for <*> seconds.\n\n
+INFO org.apache.storm.LocalCluster: \n\n\t\tSTOPPING LOCAL MODE CLUSTER\n\n
+INFO org.apache.storm.daemon.nimbus.Nimbus: Shutting down master
+INFO org.apache.storm.daemon.nimbus.Nimbus: Shut down master
+INFO org.apache.storm.LocalCluster: shutting down thrift server
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+DEBUG org.apache.storm.localizer.AsyncLocalizer: No left over resources found for any user
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: <*> is false. Using default resource isolation plugin: <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+INFO org.apache.storm.LocalCluster: \n\n\t\tSTARTING LOCAL MODE CLUSTER\n\n
+WARN org.apache.storm.LocalCluster: Adding tracked metrics for ID <*>
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using default scheduler
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw unexpected exception <*> <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Can\'t find <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+DEBUG org.apache.storm.localizer.AsyncLocalizer: reconstructing resources owned by <*>
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: Using resource isolation plugin <*>: <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: recoverRunningTopology for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> already has a reservation for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> already has a reservation for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> already has a reservation for <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: fetching blob: <*>
+ERROR org.apache.storm.localizer.AsyncLocalizer: Failed to get remote blobstore update time
+ERROR org.apache.storm.localizer.AsyncLocalizer: Failed to get remote blobstore update time
+ERROR org.apache.storm.localizer.AsyncLocalizer: Failed to get remote blobstore update time
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Recovered blobs <*> <*>
+INFO org.apache.storm.daemon.supervisor.Slot: SLOT <*>:<*> Starting in state <*> - assignment <*>
+INFO org.apache.storm.daemon.supervisor.Slot: SLOT <*>:<*> Starting in state <*> - assignment <*>
+INFO org.apache.storm.daemon.supervisor.Slot: SLOT <*>:<*> Starting in state <*> - assignment <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+DEBUG org.apache.storm.localizer.AsyncLocalizer: No left over resources found for any user
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: <*> is false. Using default resource isolation plugin: <*>
+INFO org.apache.storm.daemon.supervisor.ReadClusterState: Killing detached workers <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+DEBUG org.apache.storm.localizer.AsyncLocalizer: No left over resources found for any user
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+INFO org.apache.storm.LocalCluster: \n\n\t\tRUNNING LOCAL CLUSTER for <*> seconds.\n\n
+INFO org.apache.storm.LocalCluster: \n\n\t\tSTOPPING LOCAL MODE CLUSTER\n\n
+INFO org.apache.storm.daemon.supervisor.BasicContainer: Launching worker with assignment <*> for this supervisor <*> on port <*> with id <*>
+ADD org.apache.storm.daemon.supervisor.BasicContainer: -Dlogfile.name=worker.log
+ADD org.apache.storm.daemon.supervisor.BasicContainer: -DLogjContextSelector=org.apache.logging.logj.core.selector.BasicContextSelector
+INFO org.apache.storm.daemon.supervisor.BasicContainer: Launching worker with command: <*>. 
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+DEBUG org.apache.storm.blobstore.LocalFsBlobStore: Given subject is eligible to delete key without checking ACL, skipping... key: <*> subject: <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+INFO org.apache.storm.daemon.supervisor.Container: Killing <*>:<*>
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+WARN org.apache.storm.scheduler.resource.strategies.scheduling.ConstraintSolverConfig: TopoId <*>: Component <*> maxNodeCoLocationCnt=<*> already defined in <*>, ignoring spread config in <*>
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.ConstraintSolverStrategy: Topology <*>, exec=<*> with comp=<*> has constraint violation with comp=<*> on worker=<*>
+INFO org.apache.storm.scheduler.resource.ResourceUtils: Component resources updated: <*>
+INFO org.apache.storm.scheduler.resource.ResourceUtils: Component resource updates ignored: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: not a leader, skipping assignments
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Updating heartbeats for <*> <*> (from ZK heartbeat)
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Updating heartbeats for <*> <*> (from ZK heartbeat)
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Updating heartbeats for <*> <*> (from ZK heartbeat)
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+WARN org.apache.storm.daemon.nimbus.Nimbus: Exception when getting heartbeat timeout.
+DEBUG org.apache.storm.daemon.nimbus.HeartbeatCache: Computing alive executors for <*>\nExecutors: <*>\nAssignment: <*>\nHeartbeat cache: <*>
+INFO org.apache.storm.daemon.nimbus.HeartbeatCache: Executor <*>:<*> not alive
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Scheduling took <*> ms for <*> topologies
+DEBUG org.apache.storm.scheduler.SupervisorDetails: Creating a new supervisor (<*>-<*>) with resources: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Assigning <*> to <*> slots
+INFO org.apache.storm.daemon.nimbus.Nimbus: Assign executors: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Reassigning <*> to <*> slots
+INFO org.apache.storm.daemon.nimbus.Nimbus: Reassign executors: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: <*> assignments unchanged: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: RESETTING id->resources and id->worker-resources cache!
+INFO org.apache.storm.daemon.nimbus.Nimbus: Setting new assignment for topology id <*>: <*>
+WARN org.apache.storm.nimbus.AssignmentDistributionService: Discard an assignment distribution for node <*> because the target sub queue is full.
+WARN org.apache.storm.nimbus.AssignmentDistributionService: Discard an assignment distribution for node <*> because the target sub queue is full.
+WARN org.apache.storm.nimbus.AssignmentDistributionService: Discard an assignment distribution for node <*> because server port info is missing.
+ERROR org.apache.storm.nimbus.AssignmentDistributionService: Add node assignments interrupted: <*>
+DEBUG org.apache.storm.utils.ServerUtils: Extracting <*> shortened to <*> into <*>
+ERROR org.apache.storm.utils.ServerUtils: Invalid location <*> is outside of <*>
+DEBUG org.apache.storm.localizer.LocalizedResourceRetentionSet: cleanup target size: <*> current size is: <*>
+INFO org.apache.storm.localizer.LocalizedResourceRetentionSet: Deleted blob: <*> (REMOVED FROM CLUSTER).
+INFO org.apache.storm.nimbus.LeaderListenerCallback: Sync remote assignments and id-info to local
+INFO org.apache.storm.nimbus.LeaderListenerCallback: active-topology-blobs [<*>] local-topology-blobs [<*>] diff-topology-blobs [<*>]
+INFO org.apache.storm.nimbus.LeaderListenerCallback: active-topology-dependencies [<*>] local-blobs [<*>] diff-topology-dependencies [<*>]
+INFO org.apache.storm.nimbus.LeaderListenerCallback: Accepting leadership, all active topologies and corresponding dependencies found locally.
+INFO org.apache.storm.zookeeper.LeaderListenerCallbackFactory$1: <*> gained leadership.
+INFO org.apache.storm.LocalCluster: shutting down thrift server
+INFO org.apache.storm.LocalCluster: Shutting down in process zookeeper
+INFO org.apache.storm.LocalCluster: Done shutting down in process zookeeper
+WARN org.apache.storm.LocalCluster: Clearing tracked metrics for ID <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: not a leader, skipping cleanup
+INFO org.apache.storm.LocalCluster: Cluster was not idle in <*> ms
+INFO org.apache.storm.LocalCluster: Cluster was not idle in <*> ms
+INFO org.apache.storm.LocalCluster: Cluster was not idle in <*> ms
+INFO org.apache.storm.daemon.nimbus.Nimbus: Shutting down master
+INFO org.apache.storm.daemon.nimbus.Nimbus: Shut down master
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorter: Rack <*>: Overall Avail [ <*> ] Total [ <*> ]
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Sorted Object Resources: <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD: ps -o user -p <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-LINE#<*>: <*>
+DEBUG org.apache.storm.daemon.drpc.DRPC: Got a fail <*>
+DEBUG org.apache.storm.localizer.LocallyCachedTopologyBlob: DOWNLOADING LOCAL JAR to TEMP LOCATION... <*>
+INFO org.apache.storm.localizer.LocallyCachedTopologyBlob: Copying resources at <*> to <*>
+DEBUG org.apache.storm.localizer.LocallyCachedTopologyBlob: EXTRACTING <*> from <*> and placing it at <*>
+DEBUG org.apache.storm.utils.ServerUtils: Extracting <*> shortened to <*> into <*>
+ERROR org.apache.storm.utils.ServerUtils: Invalid location <*> is outside of <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Sending <*> bytes
+WARN org.apache.storm.daemon.nimbus.Nimbus: download blob chunk exception.
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: For topology: <*>, we have sorted execs: <*> and unassigned ackers: <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: scheduleExecutorsOnNodes: will assign <*> executors for topo <*>, sortNodesForEachExecutor=<*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: scheduleExecutorsOnNodes: loopCnt=<*>, execIndex=<*>, topo=<*>
+WARN org.apache.storm.scheduler.resource.strategies.scheduling.BaseResourceAwareStrategy: Limits exceeded, backtrackCnt=<*>, loopCnt=<*>, topo=<*>
+INFO org.apache.storm.scheduler.resource.strategies.scheduling.SchedulingSearcherState: Topology <*> NodeCompAssignment is empty
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+WARN org.apache.storm.zookeeper.AclEnforcement: <*> expected to have ACL <*>, but has <*>.  Fixing...
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+INFO org.apache.storm.scheduler.resource.strategies.priority.DefaultSchedulingPriorityStrategy: SIM Scheduling <*> with score of <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.LocalCluster$Builder: nimbusDaemon is null
+WARN org.apache.storm.LocalCluster: Adding tracked metrics for ID <*>
+PUT org.apache.storm.LocalCluster: topology.skip.missing.kryo.registrations
+PUT org.apache.storm.LocalCluster: topology.enable.message.timeouts
+PUT org.apache.storm.LocalCluster: topology.trident.batch.emit.interval.millis
+PUT org.apache.storm.LocalCluster: topology.min.replication.count
+INFO org.apache.storm.zookeeper.Zookeeper: Starting inprocess zookeeper at port <*> and dir <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Using forced scheduler from INimbus <*> <*>
+INFO org.apache.storm.scheduler.blacklist.BlacklistScheduler: Preparing black list scheduler
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Can\'t find <*> for name <*>
+ERROR org.apache.storm.scheduler.blacklist.BlacklistScheduler: Throw unexpected exception <*> <*> for name <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: Starting Nimbus with conf <*>
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+PUT org.apache.storm.daemon.nimbus.Nimbus: topology.name
+INFO org.apache.storm.daemon.nimbus.Nimbus: principal: <*> is trying to impersonate principal: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: impersonation attempt but <*> has no authorizer configured. potential security risk, please see SECURITY.MD to learn how to configure impersonation authorizer.
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: INFO: <*> ID: <*>
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: NUM PORTS: <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented CPU on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Negative fragmented Mem on <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: Get cluster info exception.
+DEBUG org.apache.storm.daemon.nimbus.Nimbus: Created state in zookeeper <*> <*> <*>
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorter: Rack <*>: Overall Avail [ <*> ] Total [ <*> ]
+DEBUG org.apache.storm.scheduler.resource.strategies.scheduling.sorter.NodeSorterHostProximity: Sorted Object Resources: <*>
+DEBUG org.apache.storm.daemon.drpc.DRPC: Got a result <*> <*>
+WARN org.apache.storm.daemon.supervisor.ReadClusterState: Shutdown of slot <*> appears to be stuck\n<*>
+DEBUG org.apache.storm.blobstore.BlobStoreUtils: KeyList from blobstore <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+DEBUG org.apache.storm.blobstore.FileBlobStoreImpl: <*> Looking for <*> in <*>
+DEBUG org.apache.storm.Testing: Looping until <*>
+INFO org.apache.storm.Testing: Condition <*> not met in <*> ms after calling <*> times
+INFO org.apache.storm.daemon.supervisor.Container: Missing topology storm code, so can\'t launch  worker with assignment <*> for this supervisor <*> on port <*> with id <*>
+<INIT> org.apache.storm.daemon.supervisor.Container: Missing required topology files...
+WARN org.apache.storm.daemon.supervisor.BasicContainer: Deleting worker <*> from state
+INFO org.apache.storm.daemon.supervisor.BasicContainer: Created Worker ID <*>
+INFO org.apache.storm.daemon.supervisor.Container: Setting up <*>:<*>
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+PUT org.apache.storm.daemon.supervisor.Container: topology.submitter.user
+PUT org.apache.storm.daemon.supervisor.Container: logs.groups
+PUT org.apache.storm.daemon.supervisor.Container: logs.users
+PUT org.apache.storm.daemon.supervisor.Container: topology.worker.timeout.secs
+INFO org.apache.storm.daemon.supervisor.Container: SET worker-user <*> <*>
+DEBUG org.apache.storm.daemon.supervisor.Container: Creating symlinks for worker-id: <*> topology-id: <*> to its port artifacts directory
+INFO org.apache.storm.daemon.supervisor.Container: Creating symlinks for worker-id: <*> storm-id: <*> for files(<*>): <*>
+INFO org.apache.storm.daemon.supervisor.Container: Topology jar for worker-id: <*> storm-id: <*> does not contain re sources directory <*>.
+LOGACCESS org.apache.storm.daemon.drpc.DRPC: fetchRequest
+LOGACCESS org.apache.storm.daemon.drpc.DRPC: fetchRequest
+DEBUG org.apache.storm.scheduler.blacklist.strategies.DefaultBlacklistStrategy: Need <*> slots.
+DEBUG org.apache.storm.scheduler.blacklist.strategies.DefaultBlacklistStrategy: Available <*> slots.
+DEBUG org.apache.storm.scheduler.blacklist.strategies.DefaultBlacklistStrategy: Shortage <*> slots.
+INFO org.apache.storm.container.DefaultResourceIsolationManager: Running as user: <*> command: <*>
+INFO org.apache.storm.daemon.nimbus.Nimbus: not a leader, skipping assignments
+DEBUG org.apache.storm.daemon.drpc.DRPC: Execute <*> <*>
+DEBUG org.apache.storm.daemon.drpc.DRPC: Waiting for result <*> <*>
+ERROR org.apache.storm.container.docker.DockerManager: cid file <*> is empty.
+INFO org.apache.storm.daemon.nimbus.Nimbus: Created blob <*> for session <*>
+WARN org.apache.storm.daemon.nimbus.Nimbus: begin create blob exception.
+INFO org.apache.storm.container.oci.RuncLibContainerManager: Killing <*>
+WARN org.apache.storm.container.oci.RuncLibContainerManager: <*> doesn\'t exist
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys Streams <*>
+INFO org.apache.storm.daemon.supervisor.Container: Missing topology storm code, so can\'t launch  worker with assignment <*> for this supervisor <*> on port <*> with id <*>
+<INIT> org.apache.storm.daemon.supervisor.Container: Missing required topology files...
+INFO org.apache.storm.daemon.supervisor.BasicContainer: Recovered Worker <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+INFO org.apache.storm.Testing: <*> <*> (<*>) [
+INFO org.apache.storm.Testing: <*> ]
+INFO org.apache.storm.Testing: <*> <*> (<*>) [
+INFO org.apache.storm.Testing: <*> ]
+INFO org.apache.storm.scheduler.Cluster: STATUS - <*> <*>
+INFO org.apache.storm.daemon.supervisor.BasicContainer$ProcessExitCallback: <*> exited with code: <*>
+ERROR org.apache.storm.container.cgroup.CgroupManager: <*> does not exist
+DEBUG org.apache.storm.utils.ServerUtils: CMD: ps -o user -p <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-LINE#<*>: <*>
+INFO org.apache.storm.utils.ServerUtils: None of the processes <*> are alive
+DEBUG org.apache.storm.daemon.drpc.DRPC: Got a result <*> <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: Reconstruct localized resources
+DEBUG org.apache.storm.localizer.AsyncLocalizer: No left over resources found for any user
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor for storm version \'<*>\'.
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting Supervisor with conf <*>
+INFO org.apache.storm.daemon.supervisor.ContainerLauncher: Using resource isolation plugin <*>: <*>
+INFO org.apache.storm.daemon.supervisor.ReadClusterState: Killing detached workers <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling updateBlobs every <*> seconds
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Scheduling cleanup every <*> millis
+INFO org.apache.storm.daemon.supervisor.Supervisor: Starting supervisor with id <*> at host <*>.
+INFO org.apache.storm.metric.StormMetricsRegistry: Started statistics report plugin...
+DEBUG org.apache.storm.utils.ServerUtils: CMD: <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-LINE#: <*>
+ERROR org.apache.storm.utils.ServerUtils: Expecting UID integer but got <*> in output of \id -u <*>\ command
+DEBUG org.apache.storm.utils.ServerUtils: CMD: <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-LINE#: <*>
+ERROR org.apache.storm.utils.ServerUtils: Expecting UID integer but got <*> in output of \id -u <*>\ command
+INFO org.apache.storm.utils.ServerUtils: Found UID <*> for <*>, while mocking the owner of pidDir <*>
+DEBUG org.apache.storm.utils.ServerUtils: Process directory <*> owner is uid=<*>
+INFO org.apache.storm.utils.ServerUtils: Prior process is dead, since directory <*> owner <*> is not same as expectedUser <*>/<*>, likely pid <*> was reused for a new process for uid <*>, <*>
+INFO org.apache.storm.utils.ServerUtils: None of the processes <*> are alive AND owned by expectedUser <*>
+WARN org.apache.storm.utils.ServerUtils: Failed to determine if processes <*> for user <*> are dead using filesystem, will try \ps\ command: <*>
+ERROR org.apache.storm.utils.ServerUtils: Cannot determine owner of non-existent file <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD: <*>
+DEBUG org.apache.storm.utils.ServerUtils: CMD-LINE#<*>: <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: recoverRunningTopology for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+DEBUG org.apache.storm.localizer.AsyncLocalizer: Recovered blobs <*> <*>
+TRACE org.apache.storm.stats.StatsUtil: Filter Sys StreamsStat <*>
+DEBUG org.apache.storm.scheduler.TopologyDetails: Scheduling component: <*> executor: <*> with resource requirement as <*> <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+WARN org.apache.storm.scheduler.TopologyDetails: Executor <*> already exists...ResourceList: <*>
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.onheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.resources.offheap.memory.mb
+PUT org.apache.storm.scheduler.resource.normalization.NormalizedResourceRequest: topology.component.cpu.pcore.percent
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+ERROR org.apache.storm.scheduler.resource.RasNode: Resources on <*> became negative and was clamped to  <*>.
+INFO org.apache.storm.daemon.supervisor.Container: GET worker-user for <*>
+INFO org.apache.storm.localizer.AsyncLocalizer: requestDownloadTopologyBlobs for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> already has a reservation for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>
+WARN org.apache.storm.localizer.LocallyCachedBlob: <*> already has a reservation for <*>
+DEBUG org.apache.storm.localizer.LocallyCachedBlob: Setting <*> ts to <*>
+INFO org.apache.storm.localizer.LocallyCachedBlob: Adding reference <*> with timestamp <*> to <*>

@@ -1,0 +1,2009 @@
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Session establishment request from client <*> client\'s lastZxid is x<*>
+DEBUG org.apache.zookeeper.server.RequestThrottler: Shutdown in progress. Request cannot be processed
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session: session = x<*>, zxid = x<*>, timeout = <*>, address = <*>
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+DEBUG org.apache.zookeeper.common.X509Util: Using Java optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: There is a connection already for server <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: validation of destination address for sid <*> is skipped (it is already running)
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: Start the RequestPath collector
+DEBUG org.apache.zookeeper.server.SessionTrackerImpl: Adding session x<*>
+DEBUG org.apache.zookeeper.ClientCnxn: Closing client for session: x<*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+DEBUG org.apache.zookeeper.ClientCnxn: Disconnecting client for session: x<*>
+INFO org.apache.zookeeper.ZooKeeper: Session: x<*> closed
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with readBatchSize <*> commitBatchSize <*>
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with <*> worker threads.
+TRACE org.apache.zookeeper.server.NettyServerCnxn: x<*> bbLen len is <*>
+INFO org.apache.zookeeper.server.command.FourLetterCommands: The list of known four letter word commands is : <*>
+INFO org.apache.zookeeper.server.command.FourLetterCommands: The list of enabled four letter word commands is : <*>
+INFO org.apache.zookeeper.server.NIOServerCnxn: Processing <*> command from <*>
+INFO org.apache.zookeeper.server.ZooTrace: Set text trace mask to x<*>
+INFO org.apache.zookeeper.server.NettyServerCnxn: Closing connection to <*> because the server is not ready
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: close called for session id: x<*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: close in progress for session id: x<*>
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: Closing connection to <*>
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: close called for session id: x<*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: cnxns size:<*>
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Initialize file found, an empty database will not block voting participation
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+WARN org.apache.zookeeper.server.persistence.FileTxnSnapLog: Unexpected empty data tree, setting zxid to -
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+<INIT> org.apache.zookeeper.server.persistence.FileTxnSnapLog: No snapshot found, but there are log entries. Something is broken!
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: <*> found. Setting current epoch to <*>.
+WARN org.apache.zookeeper.common.AtomicFileOutputStream: Unable to delete tmp file <*>
+WARN org.apache.zookeeper.common.AtomicFileOutputStream: Unable to delete tmp file during abort <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Using <*>ms as the quorum cnxn socket timeout
+INFO org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Election port bind maximum retries is <*>
+ERROR org.apache.zookeeper.server.quorum.QuorumPeer: Null listener when initializing cnx manager
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+WARN org.apache.zookeeper.server.BlueThrottle: Invalid local session weight <*>. It should be larger than 
+WARN org.apache.zookeeper.server.BlueThrottle: The renew session weight <*> is less than the local session weight <*>. Use the local session weight.
+INFO org.apache.zookeeper.server.BlueThrottle: Weighed connection throttling is enabled. But it will only be effective if connection throttling is enabled
+INFO org.apache.zookeeper.server.BlueThrottle: The weights for different session types are: global <*> renew <*> local <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Election address has not been initialized
+WARN org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Election address has not been initialized
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.server.quorum.Learner: Couldn\'t find the leader with id = <*>
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+INFO org.apache.zookeeper.ClientCnxn$SendThread: Socket connection established, initiating session, client: <*>, server: <*>
+DEBUG org.apache.zookeeper.ClientCnxn$SendThread: Session establishment request sent on <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+DEBUG org.apache.zookeeper.server.quorum.ObserverZooKeeperServer: ZooKeeper server is not running, so not proceeding to shutdown!
+INFO org.apache.zookeeper.server.ZooKeeperServer: throttledOpWaitTime set to <*> ms
+DEBUG org.apache.zookeeper.server.NettyServerCnxnFactory$DualModeSslHandler: creating plaintext handler for session <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: There is a connection already for server <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: validation of destination address for sid <*> is skipped (it is already running)
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+INFO org.apache.zookeeper.common.X509Util: enabling cert file reloading
+DEBUG org.apache.zookeeper.common.FileChangeWatcher: Registering with watch service: <*>
+DEBUG org.apache.zookeeper.common.FileChangeWatcher: Registering with watch service: <*>
+INFO org.apache.zookeeper.server.persistence.SnapStream: Invalid snapshot <*>. too short, len = <*> bytes
+WARN org.apache.zookeeper.server.auth.SaslServerCallbackHandler: User \'<*>\' not found in list of DIGEST-MD authenticateable users.
+WARN org.apache.zookeeper.server.util.OSMXBean: Not able to load class or method for com.sun.managment.UnixOperatingSystemMXBean.
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: <*> set to <*>
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Opening datadir:<*> snapDir:<*>
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.server.ZKDatabase: The configured <*> is invalid, going to use the default <*>
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+INFO org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerReceiver: Backward compatibility mode ( bits), server id: <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: Non-optimal configuration, consider an odd number of servers.
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical: Group weight: <*>
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical: One zero-weight group: , <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: No server failure will be tolerated. You need at least  servers.
+INFO org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerReceiver: WorkerReceiver is down
+DEBUG org.apache.zookeeper.common.X509Util: Loading SSLContext supplier from property \'<*>\'
+DEBUG org.apache.zookeeper.common.X509Util: Using Java optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+ERROR org.apache.zookeeper.common.X509Util: Error creating SSL context and options
+DEBUG org.apache.zookeeper.client.ZooKeeperSaslClient: Could not retrieve login configuration
+DEBUG org.apache.zookeeper.server.quorum.auth.SaslQuorumServerCallbackHandler: QuorumLearner supplied realm: <*>
+DEBUG org.apache.zookeeper.ZooKeeper: Close called on already closed client
+INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=<*> sessionTimeout=<*> watcher=<*>
+INFO org.apache.zookeeper.ClientCnxn: <*> value is <*>. feature enabled=<*>
+DEBUG org.apache.zookeeper.ZooKeeperMain: Processing <*>
+DEBUG org.apache.zookeeper.ZooKeeper: Close called on already closed client
+INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=<*> sessionTimeout=<*> watcher=<*>
+INFO org.apache.zookeeper.ClientCnxn: <*> value is <*>. feature enabled=<*>
+INFO org.apache.zookeeper.server.quorum.Leader: Quit leading due to voter changed mind.
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.server.ZKDatabase: The configured <*> is invalid, going to use the default <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Snapshotting: x<*> to <*>
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Snapshotting: x<*> to <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: Snapshot taken in <*> ms
+INFO org.apache.zookeeper.util.SecurityUtils: <*> will use DIGEST-MD as SASL mechanism.
+INFO org.apache.zookeeper.server.ZooKeeperServer: tickTime set to <*> ms
+DEBUG org.apache.zookeeper.server.quorum.CommitProcessor: Committing request:: <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: multiAddress.reachabilityCheckTimeoutMs set to <*>
+DEBUG org.apache.zookeeper.ClientCnxnSocketNIO: Deferring non-priming packet <*> until SASL authentication completes.
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: There is a connection already for server <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: validation of destination address for sid <*> is skipped (it is already running)
+WARN org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Election address has not been initialized
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> knows <*> already, it is in the lastCommittedView
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: There is a connection already for server <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: validation of destination address for sid <*> is skipped (it is already running)
+WARN org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Server address has not been initialized
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> knows <*> already, it is in the lastCommittedView
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: There is a connection already for server <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: validation of destination address for sid <*> is skipped (it is already running)
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> knows <*> already, it is in the lastProposedView
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Connection request to server id: <*> is already in progress, so skipping this request
+WARN org.apache.zookeeper.server.quorum.QuorumCnxManager: Invalid server id: <*> 
+INFO org.apache.zookeeper.server.command.StatCommand: Stat command output
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Opening channel to server <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Connected to server <*> using election address: <*>:<*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: startConnection (myId:<*> --> sid:<*>)
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Have larger server identifier, so keeping the connection: (myId:<*> --> sid:<*>)
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Address of remote peer: <*>
+WARN org.apache.zookeeper.server.util.MessageTracker: Last <*> timestamps for messages <*> <*>:
+WARN org.apache.zookeeper.server.util.MessageTracker: Last <*> timestamps for messages <*> <*>:
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+INFO org.apache.zookeeper.ClientCnxn$SendThread: Socket connection established, initiating session, client: <*>, server: <*>
+DEBUG org.apache.zookeeper.ClientCnxn$SendThread: Session establishment request sent on <*>
+INFO org.apache.zookeeper.ClientCnxn$SendThread: Socket connection established, initiating session, client: <*>, server: <*>
+DEBUG org.apache.zookeeper.ClientCnxn$SendThread: Session establishment request sent on <*>
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+DEBUG org.apache.zookeeper.common.ZKConfig: key <*>\'s value <*> is replaced with new value <*>
+INFO org.apache.zookeeper.server.quorum.LeaderRequestProcessor: Shutting down
+INFO org.apache.zookeeper.server.PrepRequestProcessor: Invalid path <*> with session x<*>
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Processing ACL: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Permission requested: <*> 
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ACLs for node: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Client credentials: <*>
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Digest got from data tree is: <*>
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Digest got from data tree is: <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Port unification <*>
+INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=<*> sessionTimeout=<*> watcher=<*> sessionId=x<*> sessionPasswd=<*>
+INFO org.apache.zookeeper.ClientCnxn: <*> value is <*>. feature enabled=<*>
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+DEBUG org.apache.zookeeper.common.X509Util: Using Java+ optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+ERROR org.apache.zookeeper.common.X509Util: Error creating SSL context and options
+WARN org.apache.zookeeper.server.quorum.UnifiedServerSocket$UnifiedSocket: Socket mode detection timed out after <*> ms, assuming PLAINTEXT
+DEBUG org.apache.zookeeper.common.SSLContextAndOptions: Setup cipher suites for <*> socket: <*>
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical: Set size: <*>
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical: Majority group counter: <*>, <*>
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical: Positive set size: <*>
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+WARN org.apache.zookeeper.server.NettyServerCnxnFactory$CnxnChannelHandler: Exception caught
+DEBUG org.apache.zookeeper.server.NettyServerCnxnFactory$CnxnChannelHandler: Closing <*>
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: close called for session id: x<*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: close in progress for session id: x<*>
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Initialize file found, an empty database will not block voting participation
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+WARN org.apache.zookeeper.server.persistence.FileTxnSnapLog: <*>This should only be allowed during upgrading.
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: <*> found. Setting current epoch to <*>.
+WARN org.apache.zookeeper.common.AtomicFileOutputStream: Unable to delete tmp file <*>
+WARN org.apache.zookeeper.common.AtomicFileOutputStream: Unable to delete tmp file during abort <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Using <*>ms as the quorum cnxn socket timeout
+INFO org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Election port bind maximum retries is <*>
+DEBUG org.apache.zookeeper.util.SecurityUtils: serviceHostname is \'<*>\'
+DEBUG org.apache.zookeeper.util.SecurityUtils: servicePrincipalName is \'<*>\'
+DEBUG org.apache.zookeeper.util.SecurityUtils: SASL mechanism(mech) is \'<*>\'
+DEBUG org.apache.zookeeper.util.SecurityUtils: Added private credential to service principal name: \'<*>\', GSSCredential name: <*>
+ERROR org.apache.zookeeper.util.SecurityUtils: Zookeeper Quorum member experienced a PrivilegedActionException exception while creating a SaslServer using a JAAS principal context
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+ERROR org.apache.zookeeper.server.quorum.Learner: Throttled request sent to leader: <*>. Exiting
+INFO org.apache.zookeeper.server.PrepRequestProcessor: PrepRequestProcessor exited loop!
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Processing ACL: <*>
+ERROR org.apache.zookeeper.server.PrepRequestProcessor: Missing AuthenticationProvider for <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Request has an invalid ACL check
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Processing ACL: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Permission requested: <*> 
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ACLs for node: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Client credentials: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Request failed ACL check
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Processing ACL: <*>
+ERROR org.apache.zookeeper.server.PrepRequestProcessor: Missing AuthenticationProvider for <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ACL check against illegal node path: <*>
+ERROR org.apache.zookeeper.server.quorum.Learner: Throttled request sent to leader: <*>. Exiting
+ERROR org.apache.zookeeper.server.quorum.Learner: Throttled request sent to leader: <*>. Exiting
+ERROR org.apache.zookeeper.server.quorum.Learner: Throttled request sent to leader: <*>. Exiting
+INFO org.apache.zookeeper.server.quorum.ObserverRequestProcessor: ObserverRequestProcessor exited loop!
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+INFO org.apache.zookeeper.server.quorum.LearnerSender: Shutting down LearnerSender
+DEBUG org.apache.zookeeper.server.quorum.CommitProcessor: Committing request:: <*>
+DEBUG org.apache.zookeeper.server.quorum.CommitProcessor: Committing request:: <*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+INFO org.apache.zookeeper.ClientCnxn: <*> value is <*>. feature enabled=<*>
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+DEBUG org.apache.zookeeper.common.X509Util: Could not parse java version <*>, using Java optimized cipher suites
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+ERROR org.apache.zookeeper.common.X509Util: Error creating SSL context and options
+WARN org.apache.zookeeper.server.quorum.UnifiedServerSocket$UnifiedSocket: Socket mode detection timed out after <*> ms, assuming PLAINTEXT
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Processing ACL: <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+ERROR org.apache.zookeeper.util.ServiceUtils: Exiting JVM with code <*>
+WARN org.apache.zookeeper.common.AtomicFileOutputStream: Unable to delete tmp file during abort <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Sync handling of connection request received from: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Initial message parsed by <*>: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Create new connection to server: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: There is a connection already for server <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: validation of destination address for sid <*> is skipped (it is already running)
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: Start the RequestPath collector
+DEBUG org.apache.zookeeper.server.quorum.FastLeaderElection: I am an observer: <*>
+DEBUG org.apache.zookeeper.common.X509Util: Loading SSLContext supplier from property \'<*>\'
+DEBUG org.apache.zookeeper.common.X509Util: Using Java optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+ERROR org.apache.zookeeper.common.X509Util: Error creating SSL context and options
+WARN org.apache.zookeeper.server.quorum.UnifiedServerSocket$UnifiedSocket: Socket mode detection timed out after <*> ms, assuming PLAINTEXT
+INFO org.apache.zookeeper.server.quorum.UnifiedServerSocket$UnifiedSocket: Accepted plaintext connection from <*>
+DEBUG org.apache.zookeeper.common.X509Util: Loading SSLContext supplier from property \'<*>\'
+DEBUG org.apache.zookeeper.common.X509Util: Using Java+ optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+ERROR org.apache.zookeeper.common.X509Util: Error creating SSL context and options
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Asynchronously closing socket to learner <*>.
+TRACE org.apache.zookeeper.server.SessionTrackerImpl: Session closing: x<*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+WARN org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj: Oracle is already set. Ignore:<*>
+ERROR org.apache.zookeeper.server.quorum.QuorumPeerConfig: Invalid configuration, only one server specified (ignoring)
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Opening datadir:<*> snapDir:<*>
+DEBUG org.apache.zookeeper.common.X509Util: Loading SSLContext supplier from property \'<*>\'
+DEBUG org.apache.zookeeper.common.X509Util: Could not parse java version <*>, using Java optimized cipher suites
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+ERROR org.apache.zookeeper.common.X509Util: Error creating SSL context and options
+INFO org.apache.zookeeper.server.quorum.UnifiedServerSocket$UnifiedSocket: Accepted plaintext connection from <*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+PRINT org.apache.zookeeper.server.ZooKeeperServer: dataLogDir=
+PRINT org.apache.zookeeper.server.ZooKeeperServer: dataLogSize=
+PRINT org.apache.zookeeper.server.ZooKeeperServer: clientPortListenBacklog=
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+INFO org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl$4: ZK server starting
+INFO org.apache.zookeeper.server.ZooKeeperServerMain: Starting server
+ERROR org.apache.zookeeper.metrics.impl.MetricsProviderBootstrap: Cannot boot MetricsProvider <*>
+INFO org.apache.zookeeper.server.ServerMetrics: ServerMetrics initialized with provider <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Opening datadir:<*> snapDir:<*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: minSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ZooKeeperServer: maxSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ZooKeeperServer: The max bytes for all large requests are set to <*>
+WARN org.apache.zookeeper.server.ZooKeeperServer: Invalid large request threshold <*>. It should be - or positive. Setting to - 
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+INFO org.apache.zookeeper.server.ZooKeeperServer: Created server with tickTime <*> ms minSessionTimeout <*> ms maxSessionTimeout <*> ms clientPortListenBacklog <*> datadir <*> snapdir <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: Added JvmPauseMonitor to server
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+INFO org.apache.zookeeper.server.ContainerManager: Using checkIntervalMs=<*> maxPerMinute=<*> maxNeverUsedIntervalMs=<*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: shutting down
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ZKShutdownHandler is not registered, so ZooKeeper server won\'t take any action on ERROR or SHUTDOWN server state changes
+INFO org.apache.zookeeper.server.quorum.LeaderRequestProcessor: Shutting down
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: shutdown scheduledExecutor
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.server.ZooKeeperServerMain: Server interrupted
+INFO org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl$4: ZK server died. Requesting stop on JVM
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.server.ZKDatabase: The configured commitLogCount <*> is less than the recommended <*>, going to use the recommended one
+INFO org.apache.zookeeper.server.ZooKeeperServer: minSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ZooKeeperServer: maxSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ZooKeeperServer: The max bytes for all large requests are set to <*>
+WARN org.apache.zookeeper.server.ZooKeeperServer: Invalid large request threshold <*>. It should be - or positive. Setting to - 
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+INFO org.apache.zookeeper.server.ZooKeeperServer: Created server with tickTime <*> ms minSessionTimeout <*> ms maxSessionTimeout <*> ms clientPortListenBacklog <*> datadir <*> snapdir <*>
+DEBUG org.apache.zookeeper.ClientCnxn: Closing client for session: x<*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+DEBUG org.apache.zookeeper.ClientCnxn: Disconnecting client for session: x<*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+ERROR org.apache.zookeeper.server.persistence.FileTxnSnapLog: <*>(highestZxid) > <*>(next log) for type <*>
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+ERROR org.apache.zookeeper.server.ZooKeeperServer: Missing node for stat <*>
+DEBUG org.apache.zookeeper.server.DataTree: Adjusting parent cversion for Txn: <*> path: <*> err: <*>
+WARN org.apache.zookeeper.server.RateLogger: Message:<*> Value:<*>
+RATELIMITLOG org.apache.zookeeper.server.DataTree: The txn x<*> of snapshot digest does not exist.
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Ignoring processTxn failure hdr: <*>, error: <*>, path: <*>
+DEBUG org.apache.zookeeper.server.DataTree: Digests are matching for Zxid: <*>, Digest in log and actual tree: <*>
+WARN org.apache.zookeeper.server.RateLogger: Message:<*> Value:<*>
+RATELIMITLOG org.apache.zookeeper.server.DataTree: Digest version not the same on zxid.
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+DEBUG org.apache.zookeeper.common.X509Util: Loading SSLContext supplier from property \'<*>\'
+DEBUG org.apache.zookeeper.common.X509Util: Using Java optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+WARN org.apache.zookeeper.server.ZooKeeperServer: *****>>>>> Got <*> <*>
+WARN org.apache.zookeeper.server.DataTree: Unexpected extra paths under session <*> which are not in txn x<*>
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+ERROR org.apache.zookeeper.server.ZooKeeperServer: Missing node for stat <*>
+DEBUG org.apache.zookeeper.server.DataTree: Deleting ephemeral node <*> for session <*>
+DEBUG org.apache.zookeeper.server.DataTree: Ignoring processTxn failure hdr: <*> : error: <*>
+RATELIMITLOG org.apache.zookeeper.server.DataTree: The txn x<*> of snapshot digest does not exist.
+RATELIMITLOG org.apache.zookeeper.server.DataTree: Digest version not the same on zxid.
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+ERROR org.apache.zookeeper.server.quorum.auth.SaslQuorumServerCallbackHandler: SASL authorization completed, <*> is not authorized to connect
+DEBUG org.apache.zookeeper.server.quorum.auth.SaslQuorumServerCallbackHandler: SASL authorization completed, authorized flag set to <*>
+INFO org.apache.zookeeper.server.NettyServerCnxnFactory: binding to port <*>, <*>
+INFO org.apache.zookeeper.server.NettyServerCnxnFactory: address is the same, skip rebinding
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.server.ZKDatabase: The configured <*> is invalid, going to use the default <*>
+WARN org.apache.zookeeper.server.ZKDatabase: The configured commitLogCount <*> is less than the recommended <*>, going to use the recommended one
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+WARN org.apache.zookeeper.server.persistence.FileTxnSnapLog: <*>This should only be allowed during upgrading.
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Snapshotting: x<*> to <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: Snapshot taken in <*> ms
+INFO org.apache.zookeeper.server.ContainerManager: Using checkIntervalMs=<*> maxPerMinute=<*> maxNeverUsedIntervalMs=<*>
+DEBUG org.apache.zookeeper.server.quorum.CommitProcessor: Committing request:: <*>
+INFO org.apache.zookeeper.ClientCnxnSocketNetty: channel is told closing
+ERROR org.apache.zookeeper.client.StaticHostProvider: Unable to resolve address: <*>
+WARN org.apache.zookeeper.server.util.OSMXBean: Not able to load class or method for com.sun.managment.UnixOperatingSystemMXBean.
+DEBUG org.apache.zookeeper.server.NettyServerCnxnFactory$CnxnChannelHandler: New message <*> from <*>
+ERROR org.apache.zookeeper.server.NettyServerCnxnFactory$CnxnChannelHandler: channelRead() on a closed or closing NettyServerCnxn
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+WARN org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj: Oracle is already set. Ignore:<*>
+WARN org.apache.zookeeper.server.util.MessageTracker: Last <*> timestamps for messages <*> <*>:
+TRACE org.apache.zookeeper.server.NIOServerCnxn: Add a buffer to outgoingBuffers, sk <*> is valid: <*>
+WARN org.apache.zookeeper.server.NIOServerCnxnFactory$AcceptThread: Unexpected ops in accept select <*>
+INFO org.apache.zookeeper.server.ZooKeeperServerMain: Starting server
+ERROR org.apache.zookeeper.metrics.impl.MetricsProviderBootstrap: Cannot boot MetricsProvider <*>
+INFO org.apache.zookeeper.server.ServerMetrics: ServerMetrics initialized with provider <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Opening datadir:<*> snapDir:<*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: minSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ZooKeeperServer: maxSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ZooKeeperServer: The max bytes for all large requests are set to <*>
+WARN org.apache.zookeeper.server.ZooKeeperServer: Invalid large request threshold <*>. It should be - or positive. Setting to - 
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+INFO org.apache.zookeeper.server.ZooKeeperServer: Created server with tickTime <*> ms minSessionTimeout <*> ms maxSessionTimeout <*> ms clientPortListenBacklog <*> datadir <*> snapdir <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: Added JvmPauseMonitor to server
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.server.ContainerManager: Using checkIntervalMs=<*> maxPerMinute=<*> maxNeverUsedIntervalMs=<*>
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+DEBUG org.apache.zookeeper.server.quorum.ObserverZooKeeperServer: ZooKeeper server is not running, so not proceeding to shutdown!
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Processing ACL: <*>
+TRACE org.apache.zookeeper.server.NIOServerCnxn: Add a buffer to outgoingBuffers, sk <*> is valid: <*>
+ERROR org.apache.zookeeper.server.auth.KeyAuthenticationProvider: getData failed
+ERROR org.apache.zookeeper.server.auth.KeyAuthenticationProvider: bad formatting
+DEBUG org.apache.zookeeper.server.auth.KeyAuthenticationProvider: KeyAuthenticationProvider handleAuthentication (<*>, <*>) -> FAIL.\n
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+<INIT> org.apache.zookeeper.server.persistence.FileTxnSnapLog: Log directory has snapshot files. Check if dataLogDir and dataDir configuration is correct.
+DEBUG org.apache.zookeeper.server.NettyServerCnxnFactory$DualModeSslHandler: creating plaintext handler for session <*>
+DEBUG org.apache.zookeeper.common.X509Util: Using Java+ optimized cipher suites for Java version <*>
+ERROR org.apache.zookeeper.server.AuthenticationHelper: Client authentication scheme(s) <*> does not match with any of the expected authentication scheme <*>, closing session.
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Becoming a non-voting participant
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Snapshotting: x<*> to <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: Snapshot taken in <*> ms
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Initial message parsed by <*>: <*>
+INFO org.apache.zookeeper.server.quorum.QuorumCnxManager: Setting arbitrary identifier to observer: <*>
+WARN org.apache.zookeeper.server.quorum.QuorumCnxManager: We got a connection request from a server with our own ID. This should be either a configuration error, or a bug.
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: %nHere are the top Read paths:
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: %nHere are the top Write paths:
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Processing ACL: <*>
+ERROR org.apache.zookeeper.server.PrepRequestProcessor: Missing AuthenticationProvider for <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ACL check against illegal node path: <*>
+ERROR org.apache.zookeeper.ClientCnxn$SendThread: Read/write client got connected to read-only server
+INFO org.apache.zookeeper.ClientCnxn$SendThread: Session establishment complete on server <*>, session id = x<*>, negotiated timeout = <*><*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+INFO org.apache.zookeeper.jmx.ManagedUtil: Logj . jmx support is disabled by property.
+ERROR org.apache.zookeeper.metrics.impl.MetricsProviderBootstrap: Cannot boot MetricsProvider <*>
+INFO org.apache.zookeeper.server.ServerMetrics: ServerMetrics initialized with provider <*>
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Opening datadir:<*> snapDir:<*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Local sessions <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Local session upgrading <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: tickTime set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: minSessionTimeout set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: maxSessionTimeout set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: initLimit set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: syncLimit set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: connectToLearnerMasterLimit set to <*>
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.server.ZKDatabase: The configured <*> is invalid, going to use the default <*>
+WARN org.apache.zookeeper.server.ZKDatabase: The configured commitLogCount <*> is less than the recommended <*>, going to use the recommended one
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Using TLS encrypted quorum communication
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Port unification <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: multiAddress.enabled set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: multiAddress.reachabilityCheckEnabled set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: multiAddress.reachabilityCheckTimeoutMs set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: <*> set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: quorum.cnxn.threads.size set to <*>
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Initialize file found, an empty database will not block voting participation
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Using <*>ms as the quorum cnxn socket timeout
+INFO org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: \'<*>\' contains invalid value: <*>(must be >= ). Use default value of <*> instead.
+WARN org.apache.zookeeper.server.quorum.QuorumPeer: Clobbering already-set QuorumCnxManager (restarting leader election?)
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Halting listener
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Halt called: Trying to close listeners
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> is soft-halting sender towards: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker.finish called. sid: <*>. myId: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+ERROR org.apache.zookeeper.server.quorum.QuorumPeer: Null listener when initializing cnx manager
+INFO org.apache.zookeeper.server.util.MessageTracker: No buffered timestamps for messages <*> <*>
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Asynchronously closing socket to learner <*>.
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Synchronously closing socket to learner <*>.
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Asynchronously closing socket to learner <*>.
+DEBUG org.apache.zookeeper.server.NettyServerCnxnFactory$DualModeSslHandler: first byte <*> does not match TLS handshake, failing to plaintext
+DEBUG org.apache.zookeeper.server.NettyServerCnxnFactory$DualModeSslHandler: creating plaintext handler for session <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: connectToLearnerMasterLimit set to <*>
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.server.DatadirCleanupManager: Purge task not started. Ignoring shutdown!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+DEBUG org.apache.zookeeper.common.X509Util: Using Java+ optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+INFO org.apache.zookeeper.ClientCnxn: <*> value is <*>. feature enabled=<*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: minSessionTimeout set to <*> ms
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Opening datadir:<*> snapDir:<*>
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.server.ZKDatabase: The configured commitLogCount <*> is less than the recommended <*>, going to use the recommended one
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+ERROR org.apache.zookeeper.server.ZooKeeperServer: Missing node for stat <*>
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+ERROR org.apache.zookeeper.server.ZooKeeperServer: Missing node for stat <*>
+DEBUG org.apache.zookeeper.server.DataTree: Deleting ephemeral node <*> for session <*>
+WARN org.apache.zookeeper.server.NettyServerCnxnFactory$CnxnChannelHandler: Exception caught
+DEBUG org.apache.zookeeper.server.RequestThrottler: Shutdown in progress. Request cannot be processed
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+DEBUG org.apache.zookeeper.server.FinalRequestProcessor: Processing request:: <*>
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Using insecure (non-TLS) quorum communication
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical: Group weight: <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: No server failure will be tolerated. You need at least  servers.
+ERROR org.apache.zookeeper.server.quorum.Learner: Throttled request sent to leader: <*>. Exiting
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: Throttling - disabling recv <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: zookeeper.snapSizeLimitInKb set to a non-positive value <*>; disabling feature
+INFO org.apache.zookeeper.server.auth.DigestAuthenticationProvider: ACL digest algorithm is: <*>
+INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=<*> sessionTimeout=<*> watcher=<*>
+INFO org.apache.zookeeper.ClientCnxn: <*> value is <*>. feature enabled=<*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+INFO org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl$4: ZK server starting
+INFO org.apache.zookeeper.server.ZooKeeperServerMain: Starting server
+ERROR org.apache.zookeeper.metrics.impl.MetricsProviderBootstrap: Cannot boot MetricsProvider <*>
+INFO org.apache.zookeeper.server.ServerMetrics: ServerMetrics initialized with provider <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Opening datadir:<*> snapDir:<*>
+<INIT> org.apache.zookeeper.server.persistence.FileTxnSnapLog: Log directory has snapshot files. Check if dataLogDir and dataDir configuration is correct.
+<INIT> org.apache.zookeeper.server.persistence.FileTxnSnapLog: Snapshot directory has log files. Check if dataLogDir and dataDir configuration is correct.
+INFO org.apache.zookeeper.server.ZooKeeperServer: minSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ZooKeeperServer: maxSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ZooKeeperServer: The max bytes for all large requests are set to <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: The large request threshold is set to <*>
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+INFO org.apache.zookeeper.server.ZooKeeperServer: Created server with tickTime <*> ms minSessionTimeout <*> ms maxSessionTimeout <*> ms clientPortListenBacklog <*> datadir <*> snapdir <*>
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+INFO org.apache.zookeeper.server.ContainerManager: Using checkIntervalMs=<*> maxPerMinute=<*> maxNeverUsedIntervalMs=<*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: shutting down
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ZKShutdownHandler is not registered, so ZooKeeper server won\'t take any action on ERROR or SHUTDOWN server state changes
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: shutdown scheduledExecutor
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+INFO org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl$4: ZK server died. Requesting stop on JVM
+DEBUG org.apache.zookeeper.ClientCnxn$SendThread: Got auth session id: x<*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Initialize file found, an empty database will not block voting participation
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+WARN org.apache.zookeeper.server.persistence.FileTxnSnapLog: Unexpected empty data tree, setting zxid to -
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+WARN org.apache.zookeeper.server.persistence.FileTxnSnapLog: <*>This should only be allowed during upgrading.
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Using <*>ms as the quorum cnxn socket timeout
+INFO org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: \'<*>\' contains invalid value: <*>(must be >= ). Use default value of <*> instead.
+ERROR org.apache.zookeeper.server.quorum.QuorumPeer: Null listener when initializing cnx manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+ERROR org.apache.zookeeper.server.NettyServerCnxnFactory: Unexpected remote address <*> when removing cnxn <*>
+WARN org.apache.zookeeper.server.PrepRequestProcessor: skipACL is set, reconfig operation will skip ACL checks!
+INFO org.apache.zookeeper.server.PrepRequestProcessor: Incremental reconfig
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+WARN org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj: Oracle is already set. Ignore:<*>
+WARN org.apache.zookeeper.server.PrepRequestProcessor: Reconfig failed - there must be a connected and synced quorum in new configuration
+DEBUG org.apache.zookeeper.common.X509Util: Loading SSLContext supplier from property \'<*>\'
+DEBUG org.apache.zookeeper.common.X509Util: Using Java optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+DEBUG org.apache.zookeeper.common.SSLContextAndOptions: Setup cipher suites for <*> socket: <*>
+DEBUG org.apache.zookeeper.common.SSLContextAndOptions: Setup enabled protocols for <*> socket: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumPeer: Starting quorum peer
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: OBSERVING
+INFO org.apache.zookeeper.server.ZooKeeperServer: minSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ZooKeeperServer: maxSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ZooKeeperServer: The max bytes for all large requests are set to <*>
+WARN org.apache.zookeeper.server.ZooKeeperServer: Invalid large request threshold <*>. It should be - or positive. Setting to - 
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+INFO org.apache.zookeeper.server.ZooKeeperServer: Created server with tickTime <*> ms minSessionTimeout <*> ms maxSessionTimeout <*> ms clientPortListenBacklog <*> datadir <*> snapdir <*>
+INFO org.apache.zookeeper.server.quorum.ObserverZooKeeperServer: syncEnabled =<*>
+INFO org.apache.zookeeper.server.quorum.ObserverZooKeeperServer: syncEnabled =<*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+WARN org.apache.zookeeper.server.quorum.Observer: No learner master found
+WARN org.apache.zookeeper.server.quorum.Learner: Interrupted while trying to connect to Leader
+ERROR org.apache.zookeeper.server.quorum.Learner: not all the LeaderConnector terminated properly
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Initialize file found, an empty database will not block voting participation
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: <*> found. Setting current epoch to <*>.
+WARN org.apache.zookeeper.common.AtomicFileOutputStream: Unable to delete tmp file during abort <*>
+WARN org.apache.zookeeper.common.AtomicFileOutputStream: Unable to delete tmp file <*>
+ERROR org.apache.zookeeper.server.quorum.Learner: First packet should have been NEWLEADER
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+WARN org.apache.zookeeper.server.quorum.Learner: Truncating log to get in sync with the leader x<*>
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+ERROR org.apache.zookeeper.server.quorum.QuorumPeerConfig: Invalid configuration, only one server specified (ignoring)
+WARN org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj: Oracle is already set. Ignore:<*>
+ERROR org.apache.zookeeper.server.quorum.QuorumPeerConfig: Invalid configuration, only one server specified (ignoring)
+ERROR org.apache.zookeeper.server.ZooKeeperServer: Missing node for stat <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.server.quorum.QuorumPeer: Restarting Leader Election
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Using <*>ms as the quorum cnxn socket timeout
+INFO org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: \'<*>\' contains invalid value: <*>(must be >= ). Use default value of <*> instead.
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Becoming a non-voting participant
+WARN org.apache.zookeeper.server.ZKDatabase: configuration znode missing (should only happen during upgrade), creating the node
+ERROR org.apache.zookeeper.server.ZooKeeperServer: Missing node for stat <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeer: Restarting Leader Election
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Using <*>ms as the quorum cnxn socket timeout
+INFO org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: \'<*>\' contains invalid value: <*>(must be >= ). Use default value of <*> instead.
+WARN org.apache.zookeeper.server.quorum.QuorumPeer: Clobbering already-set QuorumCnxManager (restarting leader election?)
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Halting listener
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Halt called: Trying to close listeners
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> is soft-halting sender towards: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Becoming a voting participant
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Becoming a voting participant
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+WARN org.apache.zookeeper.server.quorum.Follower: Unknown packet type: <*>
+INFO org.apache.zookeeper.server.quorum.Follower: Disconnected from leader (with address: <*>). Was connected for <*>ms. Sync state: <*>
+INFO org.apache.zookeeper.server.util.MessageTracker: No buffered timestamps for messages <*> <*>
+WARN org.apache.zookeeper.server.util.MessageTracker: Last <*> timestamps for messages <*> <*>:
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeer: could not find learner master sid=<*>
+WARN org.apache.zookeeper.server.quorum.Observer: requested next learner master <*> is no longer valid
+WARN org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Server address has not been initialized
+INFO org.apache.zookeeper.server.quorum.Observer: Waiting for <*> ms before reconnecting with the leader
+INFO org.apache.zookeeper.server.quorum.Observer: Observing new leader sid=<*> addr=<*>
+WARN org.apache.zookeeper.server.quorum.Learner: Interrupted while trying to connect to Leader
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+INFO org.apache.zookeeper.server.quorum.Learner: Getting a diff from the leader x<*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+WARN org.apache.zookeeper.server.ZooKeeperServer: *****>>>>> Got <*> <*>
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+DEBUG org.apache.zookeeper.server.DataTree: Deleting ephemeral node <*> for session <*>
+WARN org.apache.zookeeper.server.DataTree: Unexpected extra paths under session <*> which are not in txn x<*>
+DEBUG org.apache.zookeeper.server.DataTree: Deleting ephemeral node <*> for session <*>
+DEBUG org.apache.zookeeper.server.DataTree: Adjusting parent cversion for Txn: <*> path: <*> err: <*>
+WARN org.apache.zookeeper.server.RateLogger: Message:<*> Value:<*>
+RATELIMITLOG org.apache.zookeeper.server.DataTree: Digests are not matching. Value is Zxid.
+DEBUG org.apache.zookeeper.server.DataTree: Digest in log: <*>, actual tree: <*>
+ERROR org.apache.zookeeper.server.DataTree: First digest mismatch on txn: <*>, <*>, expected digest is <*>, actual digest is <*>, 
+WARN org.apache.zookeeper.server.ZooKeeperServer: *****>>>>> Got <*> <*>
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+ERROR org.apache.zookeeper.server.ZooKeeperServer: Missing node for stat <*>
+DEBUG org.apache.zookeeper.server.DataTree: Adjusting parent cversion for Txn: <*> path: <*> err: <*>
+WARN org.apache.zookeeper.server.RateLogger: Message:<*> Value:<*>
+RATELIMITLOG org.apache.zookeeper.server.DataTree: Digests are not matching. Value is Zxid.
+DEBUG org.apache.zookeeper.server.DataTree: Digest in log: <*>, actual tree: <*>
+ERROR org.apache.zookeeper.server.DataTree: First digest mismatch on txn: <*>, <*>, expected digest is <*>, actual digest is <*>, 
+WARN org.apache.zookeeper.server.ZooKeeperServer: *****>>>>> Got <*> <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ZKShutdownHandler is not registered, so ZooKeeper server won\'t take any action on ERROR or SHUTDOWN server state changes
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+INFO org.apache.zookeeper.server.quorum.Follower: Disconnected from leader (with address: <*>). Was connected for <*>ms. Sync state: <*>
+INFO org.apache.zookeeper.server.util.MessageTracker: No buffered timestamps for messages <*> <*>
+WARN org.apache.zookeeper.server.util.MessageTracker: Last <*> timestamps for messages <*> <*>:
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeer: could not find learner master sid=<*>
+WARN org.apache.zookeeper.server.quorum.Observer: requested next learner master <*> is no longer valid
+WARN org.apache.zookeeper.server.quorum.Learner: Couldn\'t find the leader with id = <*>
+INFO org.apache.zookeeper.server.quorum.Observer: Waiting for <*> ms before reconnecting with the leader
+INFO org.apache.zookeeper.server.quorum.Observer: Observing new leader sid=<*> addr=<*>
+WARN org.apache.zookeeper.server.quorum.Learner: Interrupted while trying to connect to Leader
+ERROR org.apache.zookeeper.server.quorum.Learner: not all the LeaderConnector terminated properly
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+WARN org.apache.zookeeper.server.quorum.Follower: Unknown packet type: <*>
+DEBUG org.apache.zookeeper.server.quorum.CommitProcessor: Committing request:: <*>
+INFO org.apache.zookeeper.server.quorum.Follower: Disconnected from leader (with address: <*>). Was connected for <*>ms. Sync state: <*>
+INFO org.apache.zookeeper.server.quorum.Observer: shutdown Observer
+INFO org.apache.zookeeper.server.quorum.LearnerSender: Shutting down LearnerSender
+INFO org.apache.zookeeper.server.ZooKeeperServer: shutting down
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ZKShutdownHandler is not registered, so ZooKeeper server won\'t take any action on ERROR or SHUTDOWN server state changes
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: shutdown scheduledExecutor
+INFO org.apache.zookeeper.server.quorum.Observer: shutdown Observer
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumPeer: PeerState set to OBSERVER
+WARN org.apache.zookeeper.server.quorum.QuorumPeer: QuorumPeer main thread exited
+INFO org.apache.zookeeper.server.ZooKeeperServer: clientPortListenBacklog set to <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+TRACE org.apache.zookeeper.server.NIOServerCnxn: Add a buffer to outgoingBuffers, sk <*> is valid: <*>
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.server.RateLogger: Message:<*> Value:<*>
+RATELIMITLOG org.apache.zookeeper.server.DataTree: Digests are not matching. Value is Zxid.
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+INFO org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl: Current configuration is at <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker thread towards <*> started. myId: <*>
+WARN org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: Interrupting SendWorker thread from RecvWorker. sid: <*>. myId: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker.finish called. sid: <*>. myId: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+INFO org.apache.zookeeper.ClientCnxn$SendThread: Socket connection established, initiating session, client: <*>, server: <*>
+DEBUG org.apache.zookeeper.ClientCnxn$SendThread: Session establishment request sent on <*>
+DEBUG org.apache.zookeeper.client.ZooKeeperSaslClient: Could not retrieve login configuration
+INFO org.apache.zookeeper.ClientCnxnSocketNetty$1: channel is connected: <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ZKShutdownHandler is not registered, so ZooKeeper server won\'t take any action on ERROR or SHUTDOWN server state changes
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: Start the RequestPath collector
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Initialize file found, an empty database will not block voting participation
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+WARN org.apache.zookeeper.server.persistence.FileTxnSnapLog: <*>This should only be allowed during upgrading.
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Initialize file found, an empty database will not block voting participation
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Using <*>ms as the quorum cnxn socket timeout
+INFO org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Election port bind maximum retries is <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeer: Clobbering already-set QuorumCnxManager (restarting leader election?)
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Halting listener
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Halt called: Trying to close listeners
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Closing listener: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> is soft-halting sender towards: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker.finish called. sid: <*>. myId: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker.finish called. sid: <*>. myId: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+ERROR org.apache.zookeeper.server.quorum.Leader$ToBeAppliedRequestProcessor: Committed request not found on toBeApplied: <*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.common.AtomicFileOutputStream: Unable to delete tmp file <*>
+WARN org.apache.zookeeper.common.AtomicFileOutputStream: Unable to delete tmp file during abort <*>
+DEBUG org.apache.zookeeper.server.quorum.FastLeaderElection: About to leave FLE instance: leader=<*>, zxid=x<*>, my id=<*>, my state=<*>
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: close called for session id: x<*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: close in progress for session id: x<*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Updated learner master list to be <*>
+DEBUG org.apache.zookeeper.server.quorum.FastLeaderElection: id: <*>, proposed id: <*>, zxid: x<*>, proposed zxid: x<*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: <*> set to <*>
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+DEBUG org.apache.zookeeper.ClientCnxn$SendThread: Got auth session id: x<*>
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+DEBUG org.apache.zookeeper.common.X509Util: Using Java+ optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+ERROR org.apache.zookeeper.common.X509Util: Error creating SSL context and options
+WARN org.apache.zookeeper.server.quorum.UnifiedServerSocket$UnifiedSocket: Socket mode detection timed out after <*> ms, assuming PLAINTEXT
+INFO org.apache.zookeeper.server.quorum.UnifiedServerSocket$UnifiedSocket: Accepted plaintext connection from <*>
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.server.ZKDatabase: The configured commitLogCount <*> is less than the recommended <*>, going to use the recommended one
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+DEBUG org.apache.zookeeper.server.SessionTrackerImpl: Removing session x<*>
+WARN org.apache.zookeeper.server.ZooKeeperServer: *****>>>>> Got <*> <*>
+INFO org.apache.zookeeper.jmx.ManagedUtil: Logj . jmx support is disabled by property.
+INFO org.apache.zookeeper.server.ZooKeeperServerMain: Starting server
+ERROR org.apache.zookeeper.metrics.impl.MetricsProviderBootstrap: Cannot boot MetricsProvider <*>
+INFO org.apache.zookeeper.server.ServerMetrics: ServerMetrics initialized with provider <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Opening datadir:<*> snapDir:<*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: minSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ZooKeeperServer: maxSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+WARN org.apache.zookeeper.server.ZooKeeperServer: Invalid max bytes for all large requests <*>. It should be a positive number.
+WARN org.apache.zookeeper.server.ZooKeeperServer: Will not change the setting. The max bytes stay at <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: The large request threshold is set to <*>
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+INFO org.apache.zookeeper.server.ZooKeeperServer: Created server with tickTime <*> ms minSessionTimeout <*> ms maxSessionTimeout <*> ms clientPortListenBacklog <*> datadir <*> snapdir <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: Added JvmPauseMonitor to server
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.server.ContainerManager: Using checkIntervalMs=<*> maxPerMinute=<*> maxNeverUsedIntervalMs=<*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeerMain: Exiting normally
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=<*> sessionTimeout=<*> watcher=<*>
+INFO org.apache.zookeeper.ClientCnxn: <*> value is <*>. feature enabled=<*>
+WARN org.apache.zookeeper.common.AtomicFileOutputStream: Unable to delete tmp file <*>
+WARN org.apache.zookeeper.common.AtomicFileOutputStream: Unable to delete tmp file during abort <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+DEBUG org.apache.zookeeper.common.X509Util: Using Java optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+DEBUG org.apache.zookeeper.server.NettyServerCnxnFactory: dual mode SSL handler added for channel: <*>
+ERROR org.apache.zookeeper.util.ServiceUtils: Fatal error, JVM should exit with code <*>. Actually System.exit is disabled
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+ERROR org.apache.zookeeper.server.auth.KeyAuthenticationProvider: bad formatting
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with readBatchSize <*>
+DEBUG org.apache.zookeeper.server.watch.WatchManager: Ignoring addWatch with closed cnxn
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+ERROR org.apache.zookeeper.server.auth.KeyAuthenticationProvider: bad formatting
+WARN org.apache.zookeeper.server.quorum.QuorumPeer: could not find learner master sid=<*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+WARN org.apache.zookeeper.server.persistence.FileTxnSnapLog: <*>This should only be allowed during upgrading.
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+WARN org.apache.zookeeper.common.AtomicFileOutputStream: Unable to delete tmp file <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Halting listener
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Halt called: Trying to close listeners
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> is soft-halting sender towards: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker.finish called. sid: <*>. myId: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=<*> sessionTimeout=<*> watcher=<*>
+INFO org.apache.zookeeper.ClientCnxn: <*> value is <*>. feature enabled=<*>
+INFO org.apache.zookeeper.server.ZooKeeperServerMain: Connection factory did not start
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+DEBUG org.apache.zookeeper.common.X509Util: Using Java optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+ERROR org.apache.zookeeper.common.X509Util: Error creating SSL context and options
+INFO org.apache.zookeeper.server.quorum.UnifiedServerSocket$UnifiedSocket: Accepted plaintext connection from <*>
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+DEBUG org.apache.zookeeper.ZKUtil: Deleting tree: <*>
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: could not find learner master address=<*>
+WARN org.apache.zookeeper.server.RateLogger: Message:<*> Value:<*>
+INFO org.apache.zookeeper.server.quorum.Learner: Revalidating client: x<*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Halting listener
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Halt called: Trying to close listeners
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Closing listener: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> is soft-halting sender towards: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+INFO org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical: Reading configuration from: <*>
+DEBUG org.apache.zookeeper.common.ZKConfig: key <*>\'s value <*> is replaced with new value <*>
+DEBUG org.apache.zookeeper.common.ZKConfig: key <*>\'s value <*> is replaced with new value <*>
+INFO org.apache.zookeeper.server.quorum.LeaderRequestProcessor: Shutting down
+INFO org.apache.zookeeper.server.ZooKeeperServer: tickTime set to <*> ms
+INFO org.apache.zookeeper.server.ZooKeeperServer: minSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ZooKeeperServer: maxSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+WARN org.apache.zookeeper.server.ZooKeeperServer: Invalid max bytes for all large requests <*>. It should be a positive number.
+WARN org.apache.zookeeper.server.ZooKeeperServer: Will not change the setting. The max bytes stay at <*>
+WARN org.apache.zookeeper.server.ZooKeeperServer: Invalid large request threshold <*>. It should be - or positive. Setting to - 
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+INFO org.apache.zookeeper.server.ZooKeeperServer: Created server with tickTime <*> ms minSessionTimeout <*> ms maxSessionTimeout <*> ms clientPortListenBacklog <*> datadir <*> snapdir <*>
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with readBatchSize <*> commitBatchSize <*>
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with <*> worker threads.
+INFO org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl: Current configuration is at <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: clientPort is not set
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: secureClientPortAddress is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: observerMasterPort is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: metricsProvider.className is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj: Oracle is set to <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: Peer type from servers list (<*>) doesn\'t match peerType (<*>). Defaulting to servers list.
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: No server failure will be tolerated. You need at least  servers.
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: Peer type from servers list (<*>) doesn\'t match peerType (<*>). Defaulting to servers list.
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Local sessions <*>
+INFO org.apache.zookeeper.server.quorum.Learner: leaderConnectDelayDuringRetryMs: <*>
+INFO org.apache.zookeeper.server.quorum.Learner: TCP NoDelay set to: <*>
+INFO org.apache.zookeeper.server.quorum.LeaderRequestProcessor: Shutting down
+INFO org.apache.zookeeper.server.quorum.Leader: Shutdown called. For the reason <*>
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Asynchronously closing socket to learner <*>.
+DEBUG org.apache.zookeeper.client.ZooKeeperSaslClient$1: saslClient.evaluateChallenge(len=<*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+WARN org.apache.zookeeper.server.admin.Commands: Re-registering command <*> (primary name = <*>)
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: checkQuota: lastPrefix=<*>, bytesDiff=<*>, countDiff=<*>
+ERROR org.apache.zookeeper.server.ZooKeeperServer: Missing limit node for quota <*>
+INFO org.apache.zookeeper.server.quorum.Observer: shutdown Observer
+INFO org.apache.zookeeper.server.quorum.LearnerSender: Shutting down LearnerSender
+INFO org.apache.zookeeper.server.ZooKeeperServer: shutting down
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ZKShutdownHandler is not registered, so ZooKeeper server won\'t take any action on ERROR or SHUTDOWN server state changes
+DEBUG org.apache.zookeeper.server.DataTree: Ignoring processTxn failure hdr: <*> : error: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Ignoring processTxn failure hdr: <*>, error: <*>, path: <*>
+RATELIMITLOG org.apache.zookeeper.server.DataTree: Digests are not matching. Value is Zxid.
+DEBUG org.apache.zookeeper.server.DataTree: Digest in log: <*>, actual tree: <*>
+ERROR org.apache.zookeeper.server.DataTree: First digest mismatch on txn: <*>, <*>, expected digest is <*>, actual digest is <*>, 
+RATELIMITLOG org.apache.zookeeper.server.DataTree: Digests are not matching. Value is Zxid.
+DEBUG org.apache.zookeeper.server.DataTree: Digest in log: <*>, actual tree: <*>
+ERROR org.apache.zookeeper.server.DataTree: First digest mismatch on txn: <*>, <*>, expected digest is <*>, actual digest is <*>, 
+RATELIMITLOG org.apache.zookeeper.server.DataTree: Digests are not matching. Value is Zxid.
+DEBUG org.apache.zookeeper.server.DataTree: Digest in log: <*>, actual tree: <*>
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: shutdown scheduledExecutor
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+<INIT> org.apache.zookeeper.client.ZooKeeperSaslClient: Cannot make SASL token without subject defined. For diagnosis, please look for WARNs and ERRORs in your log related to the Login class.
+DEBUG org.apache.zookeeper.client.ZooKeeperSaslClient: ClientCnxn:sendSaslPacket:length=<*>
+INFO org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl: Running ZK Server in single Quorum MODE
+INFO org.apache.zookeeper.server.DatadirCleanupManager: autopurge.snapRetainCount set to <*>
+INFO org.apache.zookeeper.server.DatadirCleanupManager: autopurge.purgeInterval set to <*>
+WARN org.apache.zookeeper.server.DatadirCleanupManager: Purge task is already running.
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+INFO org.apache.zookeeper.ClientCnxn$EventThread: EventThread shut down for session: x<*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> is soft-halting sender towards: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: tickTime set to <*> ms
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+WARN org.apache.zookeeper.server.quorum.LeaderZooKeeperServer: Could not register connection
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+PRINT org.apache.zookeeper.server.ZooKeeperServer: dataLogDir=
+PRINT org.apache.zookeeper.server.ZooKeeperServer: dataLogSize=
+PRINT org.apache.zookeeper.server.ZooKeeperServer: clientPortListenBacklog=
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=<*> sessionTimeout=<*> watcher=<*>
+INFO org.apache.zookeeper.ClientCnxn: <*> value is <*>. feature enabled=<*>
+DEBUG org.apache.zookeeper.server.SessionTrackerImpl: Adding session x<*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ZKShutdownHandler is not registered, so ZooKeeper server won\'t take any action on ERROR or SHUTDOWN server state changes
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: Start the RequestPath collector
+INFO org.apache.zookeeper.server.SessionTrackerImpl: SessionTrackerImpl exited loop!
+ERROR org.apache.zookeeper.util.ServiceUtils: Exiting JVM with code <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.server.SessionTrackerImpl: Adding session x<*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ZKShutdownHandler is not registered, so ZooKeeper server won\'t take any action on ERROR or SHUTDOWN server state changes
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: Start the RequestPath collector
+INFO org.apache.zookeeper.server.quorum.ReadOnlyZooKeeperServer: Read-only server started
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Create new connection to server: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: There is a connection already for server <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: validation of destination address for sid <*> is skipped (it is already running)
+DEBUG org.apache.zookeeper.ZooKeeperMain: Processing <*>
+DEBUG org.apache.zookeeper.ClientCnxn: Closing client for session: x<*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+DEBUG org.apache.zookeeper.ClientCnxn: Disconnecting client for session: x<*>
+INFO org.apache.zookeeper.ZooKeeper: Session: x<*> closed
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+INFO org.apache.zookeeper.client.FourLetterWordMain: connecting to <*> <*>
+INFO org.apache.zookeeper.client.FourLetterWordMain: using secure socket
+DEBUG org.apache.zookeeper.common.X509Util: Loading SSLContext supplier from property \'<*>\'
+DEBUG org.apache.zookeeper.common.X509Util: Using Java+ optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Processing ACL: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Permission requested: <*> 
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ACLs for node: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Client credentials: <*>
+DEBUG org.apache.zookeeper.client.ZooKeeperSaslClient: Could not retrieve login configuration
+WARN org.apache.zookeeper.ServerAdminClient: Unexpected exception
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Connection request to server id: <*> is already in progress, so skipping this request
+WARN org.apache.zookeeper.ServerAdminClient: Unexpected exception
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Session establishment request from client <*> client\'s lastZxid is x<*>
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: close called for session id: x<*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: cnxns size:<*>
+WARN org.apache.zookeeper.ServerAdminClient: Unexpected exception
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Forcing snapshot sync is enabled
+DEBUG org.apache.zookeeper.ZooKeeperMain: Processing <*>
+DEBUG org.apache.zookeeper.ZooKeeperMain: Processing <*>
+DEBUG org.apache.zookeeper.ZooKeeperMain: Processing <*>
+DEBUG org.apache.zookeeper.ClientCnxn: Closing client for session: x<*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+DEBUG org.apache.zookeeper.ClientCnxn: Disconnecting client for session: x<*>
+INFO org.apache.zookeeper.ZooKeeper: Session: x<*> closed
+INFO org.apache.zookeeper.server.NettyServerCnxnFactory: handshakeThrottlingEnabled = <*>, <*> = <*>
+DEBUG org.apache.zookeeper.common.NettyUtils: Ignoring loopback InetAddress <*>
+DEBUG org.apache.zookeeper.common.NettyUtils: Detected <*> local network addresses: <*>
+WARN org.apache.zookeeper.common.NettyUtils: Failed to list all network interfaces, assuming 
+DEBUG org.apache.zookeeper.server.SessionTrackerImpl: Adding session x<*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker.finish called. sid: <*>. myId: <*>
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.server.ZKDatabase: The configured <*> is invalid, going to use the default <*>
+DEBUG org.apache.zookeeper.server.SessionTrackerImpl: Adding session x<*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ZKShutdownHandler is not registered, so ZooKeeper server won\'t take any action on ERROR or SHUTDOWN server state changes
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: Start the RequestPath collector
+INFO org.apache.zookeeper.server.ZooKeeperServer: throttledOpWaitTime set to <*> ms
+ERROR org.apache.zookeeper.server.quorum.Leader: Couldn\'t bind to <*>
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with readBatchSize <*> commitBatchSize <*>
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with <*> worker threads.
+INFO org.apache.zookeeper.server.ContainerManager: Using checkIntervalMs=<*> maxPerMinute=<*> maxNeverUsedIntervalMs=<*>
+INFO org.apache.zookeeper.server.quorum.LeaderRequestProcessor: Shutting down
+INFO org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerReceiver: Backward compatibility mode ( bits), server id: <*>
+DEBUG org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerReceiver: Receive new notification message. My id = <*>
+INFO org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerReceiver: Notification: my state:<*>; n.sid:<*>, n.state:<*>, n.leader:<*>, n.round:x<*>, n.peerEpoch:x<*>, n.zxid:x<*>, message format version:x<*>, n.config version:x<*>
+INFO org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerReceiver: WorkerReceiver is down
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.client.StaticHostProvider: Unable to resolve address: <*>
+INFO org.apache.zookeeper.server.DatadirCleanupManager: autopurge.snapRetainCount set to <*>
+INFO org.apache.zookeeper.server.DatadirCleanupManager: autopurge.purgeInterval set to <*>
+INFO org.apache.zookeeper.server.DatadirCleanupManager: Purge task is not scheduled.
+WARN org.apache.zookeeper.server.quorum.QuorumPeerMain: Either no config or no quorum defined in config, running in standalone mode
+FORNAME org.apache.zookeeper.jmx.ManagedUtil: org.apache.logj.jmx.HierarchyDynamicMBean
+INFO org.apache.zookeeper.jmx.ManagedUtil: Logj . jmx support found and enabled.
+DEBUG org.apache.zookeeper.jmx.ManagedUtil: registerLogjMBeans()
+INFO org.apache.zookeeper.server.ZooKeeperServerMain: Starting server
+ERROR org.apache.zookeeper.metrics.impl.MetricsProviderBootstrap: Cannot boot MetricsProvider <*>
+INFO org.apache.zookeeper.server.ServerMetrics: ServerMetrics initialized with provider <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Opening datadir:<*> snapDir:<*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: minSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ZooKeeperServer: maxSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+WARN org.apache.zookeeper.server.ZooKeeperServer: Invalid max bytes for all large requests <*>. It should be a positive number.
+WARN org.apache.zookeeper.server.ZooKeeperServer: Will not change the setting. The max bytes stay at <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: The large request threshold is set to <*>
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+INFO org.apache.zookeeper.server.ZooKeeperServer: Created server with tickTime <*> ms minSessionTimeout <*> ms maxSessionTimeout <*> ms clientPortListenBacklog <*> datadir <*> snapdir <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: Added JvmPauseMonitor to server
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+INFO org.apache.zookeeper.server.ContainerManager: Using checkIntervalMs=<*> maxPerMinute=<*> maxNeverUsedIntervalMs=<*>
+WARN org.apache.zookeeper.server.ZooKeeperServerMain: Server interrupted
+INFO org.apache.zookeeper.server.quorum.QuorumPeerMain: Exiting normally
+INFO org.apache.zookeeper.server.ZooKeeperServer: tickTime set to <*> ms
+WARN org.apache.zookeeper.ServerAdminClient: Unexpected exception
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+WARN org.apache.zookeeper.server.quorum.LeaderZooKeeperServer: Could not register connection
+INFO org.apache.zookeeper.server.quorum.LeaderRequestProcessor: Shutting down
+INFO org.apache.zookeeper.server.BlueThrottle: Weighed connection throttling is disabled
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.server.quorum.ReadOnlyZooKeeperServer: Not starting Read-only server as startup follows shutdown!
+DEBUG org.apache.zookeeper.server.quorum.FastLeaderElection: Shutting down connection manager
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Halting listener
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Halt called: Trying to close listeners
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> is soft-halting sender towards: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker.finish called. sid: <*>. myId: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+DEBUG org.apache.zookeeper.server.quorum.FastLeaderElection: Shutting down messenger
+DEBUG org.apache.zookeeper.server.quorum.FastLeaderElection: FLE is down
+INFO org.apache.zookeeper.server.quorum.Leader: Quit leading due to voter changed mind.
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Sending TRUNC zxid=x<*>  for peer sid: <*>
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Sending TRUNC zxid=x<*>  for peer sid: <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: The max bytes for all large requests are set to <*>
+TRACE org.apache.zookeeper.ClientCnxnSocket: readConnectResult <*> <*>
+ERROR org.apache.zookeeper.ClientCnxn$SendThread: Read/write client got connected to read-only server
+INFO org.apache.zookeeper.ClientCnxn$SendThread: Session establishment complete on server <*>, session id = x<*>, negotiated timeout = <*><*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Snapshotting: x<*> to <*>
+INFO org.apache.zookeeper.server.quorum.LeaderRequestProcessor: Shutting down
+ERROR org.apache.zookeeper.server.NettyServerCnxnFactory: Unexpected remote address <*> when removing cnxn <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+WARN org.apache.zookeeper.server.persistence.FileTxnSnapLog: <*>This should only be allowed during upgrading.
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Using <*>ms as the quorum cnxn socket timeout
+INFO org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Election port bind maximum retries is <*>
+ERROR org.apache.zookeeper.server.quorum.QuorumPeer: Null listener when initializing cnx manager
+INFO org.apache.zookeeper.ZooKeeperTestable: injectSessionExpiration() called
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: clientPortAddress is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: secureClientPortAddress is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: observerMasterPort is not set
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: metricsProvider.className is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: Peer type from servers list (<*>) doesn\'t match peerType (<*>). Defaulting to servers list.
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical: Group weight: <*>
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical: One zero-weight group: , <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: No server failure will be tolerated. You need at least  servers.
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: Peer type from servers list (<*>) doesn\'t match peerType (<*>). Defaulting to servers list.
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical: Group weight: <*>
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical: One zero-weight group: , <*>
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Forcing snapshot sync is enabled
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: <*> set to <*>
+DEBUG org.apache.zookeeper.server.RequestThrottler: Shutdown in progress. Request cannot be processed
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+INFO org.apache.zookeeper.jmx.ManagedUtil: Logj . jmx support is disabled by property.
+INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=<*> sessionTimeout=<*> watcher=<*> sessionId=x<*> sessionPasswd=<*>
+INFO org.apache.zookeeper.ClientCnxn: <*> value is <*>. feature enabled=<*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: clientPort is not set
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: secureClientPortAddress is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: observerMasterPort is not set
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: metricsProvider.className is <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: Peer type from servers list (<*>) doesn\'t match peerType (<*>). Defaulting to servers list.
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: No server failure will be tolerated. You need at least  servers.
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: Peer type from servers list (<*>) doesn\'t match peerType (<*>). Defaulting to servers list.
+INFO org.apache.zookeeper.server.persistence.SnapStream: Invalid snapshot <*>. len = <*>, byte = <*>
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: close called for session id: x<*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: close in progress for session id: x<*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+INFO org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler: Creating TLS-enabled quorum server socket
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Sync handling of connection request received from: <*>
+INFO org.apache.zookeeper.server.quorum.QuorumCnxManager: Setting arbitrary identifier to observer: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker.finish called. sid: <*>. myId: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Create new connection to server: <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Server address has not been initialized
+WARN org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Server address has not been initialized
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> knows <*> already, it is in the lastCommittedView
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Connection request to server id: <*> is already in progress, so skipping this request
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> knows <*> already, it is in the lastProposedView
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: There is a connection already for server <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: <*> set to <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Session establishment request from client <*> client\'s lastZxid is x<*>
+DEBUG org.apache.zookeeper.server.NettyServerCnxnFactory$CnxnChannelHandler: Issued a read since we do not have anything to consume after channelReadComplete
+DEBUG org.apache.zookeeper.client.ZooKeeperSaslClient: ClientCnxn:sendSaslPacket:length=<*>
+DEBUG org.apache.zookeeper.server.SessionTrackerImpl: Checking session x<*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: Non-optimal configuration, consider an odd number of servers.
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+DEBUG org.apache.zookeeper.common.X509Util: Using Java optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Processing ACL: <*>
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Processing ACL: <*>
+ERROR org.apache.zookeeper.server.PrepRequestProcessor: Missing AuthenticationProvider for <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Permission requested: <*> 
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ACLs for node: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Client credentials: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Request failed ACL check
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Processing ACL: <*>
+ERROR org.apache.zookeeper.server.PrepRequestProcessor: Missing AuthenticationProvider for <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Permission requested: <*> 
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ACLs for node: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Client credentials: <*>
+ERROR org.apache.zookeeper.server.ZooKeeperServer: Uncaught exception in authWriteRequest with: 
+INFO org.apache.zookeeper.server.quorum.FollowerRequestProcessor: FollowerRequestProcessor exited loop!
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+DEBUG org.apache.zookeeper.common.X509Util: Using Java optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+DEBUG org.apache.zookeeper.common.SSLContextAndOptions: Setup cipher suites for <*> socket: <*>
+DEBUG org.apache.zookeeper.common.SSLContextAndOptions: Setup enabled protocols for <*> socket: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Initial message parsed by <*>: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Address of remote peer: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker.finish called. sid: <*>. myId: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Address of remote peer: <*>
+DEBUG org.apache.zookeeper.server.DataTree: Digests are matching for Zxid: <*>, Digest in log and actual tree: <*>
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with readBatchSize <*> commitBatchSize <*>
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with <*> worker threads.
+INFO org.apache.zookeeper.server.quorum.FollowerRequestProcessor: Initialized FollowerRequestProcessor with <*> as <*>
+DEBUG org.apache.zookeeper.server.FinalRequestProcessor: Processing request:: <*>
+WARN org.apache.zookeeper.server.ZooKeeperServer: *****>>>>> Got <*> <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Permission requested: <*> 
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ACLs for node: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Client credentials: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Permission requested: <*> 
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ACLs for node: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Client credentials: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Permission requested: <*> 
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ACLs for node: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Client credentials: <*>
+ERROR org.apache.zookeeper.server.util.RequestPathMetricsCollector: We should not handle <*>
+TRACE org.apache.zookeeper.server.quorum.Leader: Ack zxid: x<*>
+TRACE org.apache.zookeeper.server.quorum.Leader: outstanding proposal: x<*>
+TRACE org.apache.zookeeper.server.quorum.Leader: outstanding proposals all
+WARN org.apache.zookeeper.server.quorum.Leader: Trying to commit future proposal: zxid x<*> from <*>
+WARN org.apache.zookeeper.server.ZooKeeperServer: Received packet at server of unknown type <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Opening datadir:<*> snapDir:<*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Local sessions <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Local session upgrading <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: tickTime set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: minSessionTimeout set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: maxSessionTimeout set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: initLimit set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: syncLimit set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: connectToLearnerMasterLimit set to <*>
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.server.ZKDatabase: The configured <*> is invalid, going to use the default <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Dynamic reconfig is disabled, we don\'t store the last seen config.
+WARN org.apache.zookeeper.server.ZKDatabase: configuration znode missing (should only happen during upgrade), creating the node
+ERROR org.apache.zookeeper.server.ZooKeeperServer: Missing node for stat <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Using insecure (non-TLS) quorum communication
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Port unification <*>
+INFO org.apache.zookeeper.common.X509Util: enabling cert file reloading
+DEBUG org.apache.zookeeper.common.FileChangeWatcher: Registering with watch service: <*>
+DEBUG org.apache.zookeeper.common.FileChangeWatcher: Registering with watch service: <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: multiAddress.enabled set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: multiAddress.reachabilityCheckEnabled set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: multiAddress.reachabilityCheckTimeoutMs set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: <*> set to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: quorum.cnxn.threads.size set to <*>
+INFO org.apache.zookeeper.server.controller.CommandListener: CommandListener server host: <*> with port: <*>
+INFO org.apache.zookeeper.server.quorum.UpgradeableSessionTracker: Upgrading session x<*>
+DEBUG org.apache.zookeeper.server.SessionTrackerImpl: Removing session x<*>
+INFO org.apache.zookeeper.server.quorum.LeaderRequestProcessor: Shutting down
+INFO org.apache.zookeeper.server.quorum.Leader: Shutdown called. For the reason <*>
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Asynchronously closing socket to learner <*>.
+INFO org.apache.zookeeper.ClientCnxnSocketNIO: testableCloseSocket() called
+INFO org.apache.zookeeper.server.quorum.auth.SaslQuorumServerCallbackHandler: Successfully authenticated learner: authenticationID=<*>;  authorizationID=<*>.
+DEBUG org.apache.zookeeper.server.quorum.auth.SaslQuorumServerCallbackHandler: SASL authorization completed, authorized flag set to <*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+INFO org.apache.zookeeper.server.PrepRequestProcessor: Invalid path <*> with session x<*>
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Processing ACL: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Permission requested: <*> 
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ACLs for node: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Client credentials: <*>
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Digest got from data tree is: <*>
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Digest got from data tree is: <*>
+DEBUG org.apache.zookeeper.common.X509Util: Loading SSLContext supplier from property \'<*>\'
+DEBUG org.apache.zookeeper.common.X509Util: Could not parse java version <*>, using Java optimized cipher suites
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+ERROR org.apache.zookeeper.common.X509Util: Error creating SSL context and options
+INFO org.apache.zookeeper.server.quorum.UnifiedServerSocket$UnifiedSocket: Accepted plaintext connection from <*>
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Snapshotting: x<*> to <*>
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj: Oracle says:<*>
+ERROR org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj: Oracle is not set, return false
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj: We lose the quorum, but we do not have any valid followers Oracle:<*>
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj: Oracle says:<*>
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+<INIT> org.apache.zookeeper.server.persistence.FileTxnLog: No log files found to truncate! This could happen if you still have snapshots from an old setup or log files were deleted accidentally or dataLogDir was changed in zoo.cfg.
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Initialize file found, an empty database will not block voting participation
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+WARN org.apache.zookeeper.server.persistence.FileTxnSnapLog: Unexpected empty data tree, setting zxid to -
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+DEBUG org.apache.zookeeper.server.quorum.ObserverMaster: ignore missing proposal packet for <*>
+DEBUG org.apache.zookeeper.ZooKeeperMain: Processing <*>
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+DEBUG org.apache.zookeeper.common.X509Util: Using Java+ optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+WARN org.apache.zookeeper.server.ZooKeeperServer: Incorrect password from <*> for session x<*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Established session x<*> with negotiated timeout <*> for client <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with readBatchSize <*>
+INFO org.apache.zookeeper.server.quorum.UpgradeableSessionTracker: Upgrading session x<*>
+DEBUG org.apache.zookeeper.server.SessionTrackerImpl: Removing session x<*>
+WARN org.apache.zookeeper.server.ZooKeeperServer: Invalid max bytes for all large requests <*>. It should be a positive number.
+WARN org.apache.zookeeper.server.ZooKeeperServer: Will not change the setting. The max bytes stay at <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: The large request threshold is set to <*>
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Snapshotting: x<*> to <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: Snapshot taken in <*> ms
+DEBUG org.apache.zookeeper.ZooKeeperMain: Processing <*>
+INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=<*> sessionTimeout=<*> watcher=<*>
+INFO org.apache.zookeeper.ClientCnxn: <*> value is <*>. feature enabled=<*>
+DEBUG org.apache.zookeeper.ClientCnxn: Closing client for session: x<*>
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+DEBUG org.apache.zookeeper.ClientCnxn: Disconnecting client for session: x<*>
+INFO org.apache.zookeeper.ZooKeeper: Session: x<*> closed
+DEBUG org.apache.zookeeper.ZooKeeperMain: Processing <*>
+DEBUG org.apache.zookeeper.ZooKeeperMain: Processing <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: multiAddress.enabled set to <*>
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: clientPort is not set
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: secureClientPort is not set
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: observerMasterPort is not set
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: metricsProvider.className is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: minSessionTimeout set to <*>
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+DEBUG org.apache.zookeeper.common.X509Util: Attempting to reset default SSL context after receiving watch event: <*> with context: <*>
+DEBUG org.apache.zookeeper.common.X509Util: Loading SSLContext supplier from property \'<*>\'
+DEBUG org.apache.zookeeper.common.X509Util: Using Java optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+WARN org.apache.zookeeper.server.BlueThrottle: Invalid global session weight <*>. It should be larger than 
+WARN org.apache.zookeeper.server.BlueThrottle: Invalid local session weight <*>. It should be larger than 
+WARN org.apache.zookeeper.server.BlueThrottle: Invalid renew session weight <*>. It should be larger than 
+INFO org.apache.zookeeper.server.BlueThrottle: Weighed connection throttling is disabled
+INFO org.apache.zookeeper.server.ZooKeeperServer: minSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ZooKeeperServer: maxSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+WARN org.apache.zookeeper.server.ZooKeeperServer: Invalid max bytes for all large requests <*>. It should be a positive number.
+WARN org.apache.zookeeper.server.ZooKeeperServer: Will not change the setting. The max bytes stay at <*>
+WARN org.apache.zookeeper.server.ZooKeeperServer: Invalid large request threshold <*>. It should be - or positive. Setting to - 
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+INFO org.apache.zookeeper.server.ZooKeeperServer: Created server with tickTime <*> ms minSessionTimeout <*> ms maxSessionTimeout <*> ms clientPortListenBacklog <*> datadir <*> snapdir <*>
+INFO org.apache.zookeeper.server.ZooKeeperServerMain: Starting server
+ERROR org.apache.zookeeper.metrics.impl.MetricsProviderBootstrap: Cannot boot MetricsProvider <*>
+INFO org.apache.zookeeper.server.ServerMetrics: ServerMetrics initialized with provider <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Opening datadir:<*> snapDir:<*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: minSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ZooKeeperServer: maxSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+WARN org.apache.zookeeper.server.ZooKeeperServer: Invalid max bytes for all large requests <*>. It should be a positive number.
+WARN org.apache.zookeeper.server.ZooKeeperServer: Will not change the setting. The max bytes stay at <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: The large request threshold is set to <*>
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+INFO org.apache.zookeeper.server.ZooKeeperServer: Created server with tickTime <*> ms minSessionTimeout <*> ms maxSessionTimeout <*> ms clientPortListenBacklog <*> datadir <*> snapdir <*>
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+INFO org.apache.zookeeper.server.ContainerManager: Using checkIntervalMs=<*> maxPerMinute=<*> maxNeverUsedIntervalMs=<*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: shutting down
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ZKShutdownHandler is not registered, so ZooKeeper server won\'t take any action on ERROR or SHUTDOWN server state changes
+INFO org.apache.zookeeper.server.quorum.LeaderRequestProcessor: Shutting down
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: shutdown scheduledExecutor
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.server.ZooKeeperServerMain: Server interrupted
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+WARN org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj: Oracle is already set. Ignore:<*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: Non-optimal configuration, consider an odd number of servers.
+DEBUG org.apache.zookeeper.common.X509Util: Loading SSLContext supplier from property \'<*>\'
+DEBUG org.apache.zookeeper.common.X509Util: Using Java+ optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+ERROR org.apache.zookeeper.common.X509Util: Error creating SSL context and options
+DEBUG org.apache.zookeeper.common.X509Util: Loading SSLContext supplier from property \'<*>\'
+DEBUG org.apache.zookeeper.common.X509Util: Using Java optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+DEBUG org.apache.zookeeper.common.SSLContextAndOptions: Setup cipher suites for <*> socket: <*>
+DEBUG org.apache.zookeeper.common.SSLContextAndOptions: Setup enabled protocols for <*> socket: <*>
+INFO org.apache.zookeeper.server.quorum.UnifiedServerSocket$UnifiedSocket: Accepted TLS connection from <*> - <*> - <*>
+DEBUG org.apache.zookeeper.common.SSLContextAndOptions: Setup cipher suites for <*> socket: <*>
+DEBUG org.apache.zookeeper.common.SSLContextAndOptions: Setup enabled protocols for <*> socket: <*>
+DEBUG org.apache.zookeeper.server.SessionTrackerImpl: Checking session x<*>
+WARN org.apache.zookeeper.ServerAdminClient: Unexpected exception
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with readBatchSize <*>
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with readBatchSize <*> commitBatchSize <*>
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with <*> worker threads.
+INFO org.apache.zookeeper.server.quorum.FollowerRequestProcessor: Initialized FollowerRequestProcessor with <*> as <*>
+INFO org.apache.zookeeper.server.quorum.LeaderSessionTracker: Committing global session x<*>
+DEBUG org.apache.zookeeper.common.FileChangeWatcher: Registering with watch service: <*>
+DEBUG org.apache.zookeeper.server.NettyServerCnxnFactory$DualModeSslHandler: creating ssl handler for session <*>
+WARN org.apache.zookeeper.server.quorum.Leader: Commiting zxid x<*> from <*> not first!
+WARN org.apache.zookeeper.server.quorum.Leader: First is x<*>
+DEBUG org.apache.zookeeper.server.quorum.CommitProcessor: Committing request:: <*>
+INFO org.apache.zookeeper.server.SyncRequestProcessor: SyncRequestProcessor exited!
+WARN org.apache.zookeeper.server.ServerCnxnFactory: maxCnxns is not configured, using default value <*>.
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: multiAddress.enabled set to <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+<INIT> org.apache.zookeeper.server.persistence.FileTxnSnapLog: No snapshot found, but there are log entries. Something is broken!
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Snapshotting: x<*> to <*>
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: <*> found. Setting current epoch to <*>.
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Using <*>ms as the quorum cnxn socket timeout
+INFO org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Election port bind maximum retries is <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeer: Clobbering already-set QuorumCnxManager (restarting leader election?)
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Halting listener
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Halt called: Trying to close listeners
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Closing listener: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler: Trying to close listeners: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener$ListenerHandler: Trying to close listeners: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> is soft-halting sender towards: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker.finish called. sid: <*>. myId: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker.finish called. sid: <*>. myId: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+INFO org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl$1$1: ZK Server <*> started
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.common.X509Util: Loading SSLContext supplier from property \'<*>\'
+DEBUG org.apache.zookeeper.common.X509Util: Using Java+ optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.server.NIOServerCnxnFactory$AcceptThread: Unexpected ops in accept select <*>
+<INIT> org.apache.zookeeper.client.ZooKeeperSaslClient: Cannot make SASL token without subject defined. For diagnosis, please look for WARNs and ERRORs in your log related to the Login class.
+ERROR org.apache.zookeeper.server.persistence.SnapStream: Read incorrect number of bytes from <*>
+ERROR org.apache.zookeeper.server.persistence.SnapStream: Read incorrect number of bytes from <*>
+INFO org.apache.zookeeper.server.persistence.SnapStream: Invalid snapshot <*>. len = <*>, byte = <*>
+INFO org.apache.zookeeper.server.persistence.FileSnap: Reading snapshot <*>
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+INFO org.apache.zookeeper.server.DataTree: The digest in the snapshot has digest version of <*>, with zxid as x<*>, and digest value as <*>
+INFO org.apache.zookeeper.server.DataTree: The zxid of snapshot digest x<*> is smaller than the known snapshot highest zxid, the snapshot started with zxid x<*>. It will be invalid to use this snapshot digest associated with this zxid, will ignore comparing it.
+WARN org.apache.zookeeper.server.DataTree: Got EOF exception while reading the digest, likely due to the reading an older snapshot.
+WARN org.apache.zookeeper.server.RateLogger: Message:<*> Value:<*>
+RATELIMITLOG org.apache.zookeeper.server.DataTree: Digests are not matching. Value is Zxid.
+INFO org.apache.zookeeper.server.ZooKeeperServer: minSessionTimeout set to <*> ms
+WARN org.apache.zookeeper.server.util.OSMXBean: Not able to load class or method for com.sun.managment.UnixOperatingSystemMXBean.
+ERROR org.apache.zookeeper.server.NettyServerCnxnFactory: Auth provider not found: <*>
+INFO org.apache.zookeeper.server.controller.CommandClient: Sent command <*>
+INFO org.apache.zookeeper.server.controller.CommandClient: Response body <*>
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Initialize file found, an empty database will not block voting participation
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+WARN org.apache.zookeeper.server.persistence.FileTxnSnapLog: Unexpected empty data tree, setting zxid to -
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+FORNAME org.apache.zookeeper.jmx.ManagedUtil: org.apache.logj.jmx.HierarchyDynamicMBean
+INFO org.apache.zookeeper.jmx.ManagedUtil: Logj . jmx support found and enabled.
+INFO org.apache.zookeeper.server.ZooKeeperServerMain: Starting server
+ERROR org.apache.zookeeper.metrics.impl.MetricsProviderBootstrap: Cannot boot MetricsProvider <*>
+INFO org.apache.zookeeper.server.ServerMetrics: ServerMetrics initialized with provider <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Opening datadir:<*> snapDir:<*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: minSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ZooKeeperServer: maxSessionTimeout set to <*> ms
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+INFO org.apache.zookeeper.server.ResponseCache: <*> response cache size is initialized with value <*>.
+WARN org.apache.zookeeper.server.ZooKeeperServer: Invalid max bytes for all large requests <*>. It should be a positive number.
+WARN org.apache.zookeeper.server.ZooKeeperServer: Will not change the setting. The max bytes stay at <*>
+WARN org.apache.zookeeper.server.ZooKeeperServer: Invalid large request threshold <*>. It should be - or positive. Setting to - 
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+INFO org.apache.zookeeper.server.ZooKeeperServer: Created server with tickTime <*> ms minSessionTimeout <*> ms maxSessionTimeout <*> ms clientPortListenBacklog <*> datadir <*> snapdir <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: Added JvmPauseMonitor to server
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+INFO org.apache.zookeeper.server.ContainerManager: Using checkIntervalMs=<*> maxPerMinute=<*> maxNeverUsedIntervalMs=<*>
+WARN org.apache.zookeeper.server.ZooKeeperServerMain: Server interrupted
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+DEBUG org.apache.zookeeper.common.X509Util: Using Java+ optimized cipher suites for Java version <*>
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+ERROR org.apache.zookeeper.common.X509Util: Error creating SSL context and options
+ERROR org.apache.zookeeper.server.persistence.FileTxnSnapLog: <*>(highestZxid) > <*>(next log) for type <*>
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+DEBUG org.apache.zookeeper.server.DataTree: Ignoring processTxn failure hdr: <*> : error: <*>
+DEBUG org.apache.zookeeper.server.DataTree: Deleting ephemeral node <*> for session <*>
+DEBUG org.apache.zookeeper.server.DataTree: Deleting ephemeral node <*> for session <*>
+WARN org.apache.zookeeper.server.RateLogger: Message:<*> Value:<*>
+RATELIMITLOG org.apache.zookeeper.server.DataTree: Digests are not matching. Value is Zxid.
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Ignoring processTxn failure hdr: <*>, error: <*>, path: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Ignoring processTxn failure hdr: <*>, error: <*>, path: <*>
+WARN org.apache.zookeeper.server.RateLogger: Message:<*> Value:<*>
+RATELIMITLOG org.apache.zookeeper.server.DataTree: Digest version not the same on zxid.
+WARN org.apache.zookeeper.server.RateLogger: Message:<*> Value:<*>
+RATELIMITLOG org.apache.zookeeper.server.DataTree: Digests are not matching. Value is Zxid.
+DEBUG org.apache.zookeeper.server.DataTree: Digest in log: <*>, actual tree: <*>
+ERROR org.apache.zookeeper.server.DataTree: First digest mismatch on txn: <*>, <*>, expected digest is <*>, actual digest is <*>, 
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+INFO org.apache.zookeeper.server.ContainerManager: Using checkIntervalMs=<*> maxPerMinute=<*> maxNeverUsedIntervalMs=<*>
+INFO org.apache.zookeeper.server.quorum.FastLeaderElection: <*> = <*> ms
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Address of remote peer: <*>
+WARN org.apache.zookeeper.server.NIOServerCnxn: CancelledKeyException causing close of session: x<*>
+DEBUG org.apache.zookeeper.server.NIOServerCnxn: CancelledKeyException stack trace
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+INFO org.apache.zookeeper.server.ZooKeeperServer: shutting down
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ZKShutdownHandler is not registered, so ZooKeeper server won\'t take any action on ERROR or SHUTDOWN server state changes
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: shutdown scheduledExecutor
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.server.DataTree: Unexpected extra paths under session <*> which are not in txn x<*>
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+ERROR org.apache.zookeeper.server.ZooKeeperServer: Missing node for stat <*>
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+DEBUG org.apache.zookeeper.server.DataTree: Deleting ephemeral node <*> for session <*>
+INFO org.apache.zookeeper.server.DataTree: Digest version changed, local: <*>, new: <*>, skip comparing digest now.
+DEBUG org.apache.zookeeper.server.DataTree: Digests are matching for Zxid: <*>, Digest in log and actual tree: <*>
+DEBUG org.apache.zookeeper.server.RequestThrottler: Shutdown in progress. Request cannot be processed
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.server.NettyServerCnxnFactory$CnxnChannelHandler: Exception caught
+DEBUG org.apache.zookeeper.server.NettyServerCnxnFactory$CnxnChannelHandler: Closing <*>
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: close called for session id: x<*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+DEBUG org.apache.zookeeper.server.NettyServerCnxn: cnxns size:<*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+WARN org.apache.zookeeper.server.ZKDatabase: configuration znode missing (should only happen during upgrade), creating the node
+ERROR org.apache.zookeeper.server.ZooKeeperServer: Missing node for stat <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Queue size: <*>
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+INFO org.apache.zookeeper.server.quorum.LearnerMaster: Set maxConcurrentSnapSyncs to <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: forcibly expiring session x<*>
+DEBUG org.apache.zookeeper.server.RequestThrottler: Shutdown in progress. Request cannot be processed
+INFO org.apache.zookeeper.server.ZooKeeperServerListenerImpl: Thread <*> exits, error code <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ZKShutdownHandler is not registered, so ZooKeeper server won\'t take any action on ERROR or SHUTDOWN server state changes
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+INFO org.apache.zookeeper.server.quorum.FastLeaderElection: <*> = <*> ms
+INFO org.apache.zookeeper.server.quorum.FastLeaderElection: <*> = <*> ms
+TRACE org.apache.zookeeper.server.SessionTrackerImpl: Session closing: x<*>
+TRACE org.apache.zookeeper.server.SessionTrackerImpl: Session closing: x<*>
+TRACE org.apache.zookeeper.server.SessionTrackerImpl: Session closing: x<*>
+INFO org.apache.zookeeper.server.SessionTrackerImpl: SessionTrackerImpl exited loop!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+TRACE org.apache.zookeeper.ClientCnxnSocketNIO: Closed client selector
+INFO org.apache.zookeeper.server.quorum.Leader: LEADING - LEADER ELECTION TOOK - <*> <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+<INIT> org.apache.zookeeper.server.persistence.FileTxnSnapLog: No snapshot found, but there are log entries. Something is broken!
+INFO org.apache.zookeeper.server.ZKDatabase: Snapshot loaded in <*> ms, highest zxid is x<*>, digest is <*>
+INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Snapshotting: x<*> to <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: Snapshot taken in <*> ms
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj: Oracle is set to <*>
+WARN org.apache.zookeeper.common.AtomicFileOutputStream: Unable to delete tmp file <*>
+WARN org.apache.zookeeper.common.AtomicFileOutputStream: Unable to delete tmp file during abort <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+INFO org.apache.zookeeper.server.quorum.Leader: Have quorum of supporters, sids: [<*>]; starting up and setting last processed zxid: x<*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Becoming a voting participant
+WARN org.apache.zookeeper.server.quorum.QuorumPeer: Suggested leader: <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+INFO org.apache.zookeeper.server.quorum.LeaderRequestProcessor: Shutting down
+INFO org.apache.zookeeper.server.quorum.Leader: Shutdown called. For the reason <*>
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Asynchronously closing socket to learner <*>.
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Asynchronously closing socket to learner <*>.
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Asynchronously closing socket to learner <*>.
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.jmx.MBeanRegistry: Unregister MBean [<*>]
+DEBUG org.apache.zookeeper.ZooKeeperMain: Processing <*>
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+WARN org.apache.zookeeper.server.DataTree: Missing quota stat node <*>
+INFO org.apache.zookeeper.server.embedded.ZooKeeperServerEmbeddedImpl: Running ZK Server in single Quorum MODE
+INFO org.apache.zookeeper.server.DatadirCleanupManager: autopurge.snapRetainCount set to <*>
+INFO org.apache.zookeeper.server.DatadirCleanupManager: autopurge.purgeInterval set to <*>
+WARN org.apache.zookeeper.server.DatadirCleanupManager: Purge task is already running.
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Opening datadir:<*> snapDir:<*>
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.server.ZKDatabase: The configured <*> is invalid, going to use the default <*>
+WARN org.apache.zookeeper.server.ZKDatabase: The configured commitLogCount <*> is less than the recommended <*>, going to use the recommended one
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+ERROR org.apache.zookeeper.server.auth.KeyAuthenticationProvider: getData failed
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+INFO org.apache.zookeeper.client.FourLetterWordMain: connecting to <*> <*>
+INFO org.apache.zookeeper.server.persistence.SnapStream: Invalid snapshot <*>. len = <*>, byte = <*>
+ERROR org.apache.zookeeper.server.persistence.SnapStream: Read incorrect number of bytes from <*>
+ERROR org.apache.zookeeper.server.AuthenticationHelper: zookeeper.enforce.auth.enabled is true zookeeper.enforce.auth.schemes must be  configured.
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.server.NIOServerCnxnFactory$SelectorThread: Unexpected ops in select <*>
+INFO org.apache.zookeeper.server.NIOServerCnxnFactory$SelectorThread: selector thread exitted run method
+DEBUG org.apache.zookeeper.server.PrepRequestProcessor: Processing ACL: <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Request failed ACL check
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+INFO org.apache.zookeeper.jmx.ManagedUtil: Logj . jmx support is disabled by property.
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.server.ZKDatabase: The configured <*> is invalid, going to use the default <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: ZKShutdownHandler is not registered, so ZooKeeper server won\'t take any action on ERROR or SHUTDOWN server state changes
+INFO org.apache.zookeeper.server.util.RequestPathMetricsCollector: Start the RequestPath collector
+DEBUG org.apache.zookeeper.server.quorum.FastLeaderElection: Shutting down connection manager
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Halting listener
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Halt called: Trying to close listeners
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$Listener: Closing listener: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> is soft-halting sender towards: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.FastLeaderElection: Shutting down messenger
+DEBUG org.apache.zookeeper.server.quorum.FastLeaderElection: FLE is down
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Local sessions <*>
+INFO org.apache.zookeeper.server.quorum.LeaderRequestProcessor: Shutting down
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+INFO org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical: Reading configuration from: <*>
+DEBUG org.apache.zookeeper.common.ZKConfig: key <*>\'s value <*> is replaced with new value <*>
+DEBUG org.apache.zookeeper.common.ZKConfig: key <*>\'s value <*> is replaced with new value <*>
+DEBUG org.apache.zookeeper.common.ZKConfig: key <*>\'s value <*> is replaced with new value <*>
+DEBUG org.apache.zookeeper.client.ZooKeeperSaslClient$1: saslClient.evaluateChallenge(len=<*>)
+WARN org.apache.zookeeper.server.util.OSMXBean: Not able to load class or method for com.sun.managment.UnixOperatingSystemMXBean.
+DEBUG org.apache.zookeeper.server.quorum.QuorumPeer: Initializing leader election protocol...
+INFO org.apache.zookeeper.server.NettyServerCnxnFactory: handshakeThrottlingEnabled = <*>, <*> = <*>
+INFO org.apache.zookeeper.Login: TGT valid starting at:        <*>
+INFO org.apache.zookeeper.Login: TGT expires:                  <*>
+ERROR org.apache.zookeeper.server.auth.KeyAuthenticationProvider: getData failed
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Server <*> is soft-halting sender towards: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker.finish called. sid: <*>. myId: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker.finish called. sid: <*>. myId: <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Removing entry from senderWorkerMap sid=<*>
+WARN org.apache.zookeeper.server.NettyServerCnxnFactory$CnxnChannelHandler: Exception caught
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+DEBUG org.apache.zookeeper.server.DataTree: Deleting ephemeral node <*> for session <*>
+DEBUG org.apache.zookeeper.server.DataTree: Deleting ephemeral node <*> for session <*>
+DEBUG org.apache.zookeeper.server.DataTree: Ignoring processTxn failure hdr: <*> : error: <*>
+WARN org.apache.zookeeper.server.RateLogger: Message:<*> Value:<*>
+RATELIMITLOG org.apache.zookeeper.server.DataTree: The txn x<*> of snapshot digest does not exist.
+DEBUG org.apache.zookeeper.server.DataTree: Digests are matching for Zxid: <*>, Digest in log and actual tree: <*>
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Forcing snapshot sync is enabled
+INFO org.apache.zookeeper.server.quorum.LearnerHandler: Forcing snapshot sync is enabled
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker: RecvWorker.finish called. sid: <*>. myId: <*>
+DEBUG org.apache.zookeeper.server.quorum.ObserverMaster: ignore missing proposal packet for <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input stream: <*>
+DEBUG org.apache.zookeeper.server.persistence.FileTxnLog$FileTxnIterator: Created new input archive: <*>
+ERROR org.apache.zookeeper.server.persistence.Util: Last transaction was partial.
+ERROR org.apache.zookeeper.server.AuthenticationHelper: Client authentication scheme(s) <*> does not match with any of the expected authentication scheme <*>, closing session.
+DEBUG org.apache.zookeeper.server.RequestThrottler: Shutdown in progress. Request cannot be processed
+INFO org.apache.zookeeper.server.ServerCnxnFactory: Using <*> as server connection factory
+WARN org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj: Oracle is already set. Ignore:<*>
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+DEBUG org.apache.zookeeper.server.persistence.FileTxnSnapLog: Opening datadir:<*> snapDir:<*>
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+WARN org.apache.zookeeper.server.ZKDatabase: The configured commitLogCount <*> is less than the recommended <*>, going to use the recommended one
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+DEBUG org.apache.zookeeper.ClientCnxn$SendThread: Got ping response for session id: x<*> after <*>ms.
+WARN org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Server address has not been initialized
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+DEBUG org.apache.zookeeper.server.quorum.FastLeaderElection: I am an observer: <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: Peer state changed: <*>
+WARN org.apache.zookeeper.jmx.MBeanRegistry: Invalid name \<*>\ for class <*>
+WARN org.apache.zookeeper.server.quorum.LeaderZooKeeperServer: Could not register connection
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ClientCnxn$EventThread: Somehow a null cb got to EventThread!
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical: Group weight: <*>
+DEBUG org.apache.zookeeper.server.quorum.flexible.QuorumHierarchical: One zero-weight group: , <*>
+INFO org.apache.zookeeper.jmx.ManagedUtil: Logj . jmx support is disabled by property.
+DEBUG org.apache.zookeeper.jmx.ManagedUtil: registerLogjMBeans()
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Opening channel to server <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Opening channel to server <*>
+INFO org.apache.zookeeper.server.quorum.QuorumCnxManager: SSL handshake complete with <*> - <*> - <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Connected to server <*> using election address: <*>:<*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: startConnection (myId:<*> --> sid:<*>)
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: Have larger server identifier, so keeping the connection: (myId:<*> --> sid:<*>)
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Address of remote peer: <*>
+INFO org.apache.zookeeper.server.quorum.Leader: Quit leading due to voter changed mind.
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager: There is a connection already for server <*>
+WARN org.apache.zookeeper.ServerAdminClient: Unexpected exception
+DEBUG org.apache.zookeeper.server.FinalRequestProcessor: Processing request:: <*>
+WARN org.apache.zookeeper.server.auth.SaslServerCallbackHandler: No password found for user: <*>
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+WARN org.apache.zookeeper.common.X509Util: <*> not specified
+INFO org.apache.zookeeper.common.SecretUtils: Reading secret from <*>
+ERROR org.apache.zookeeper.common.SecretUtils: Exception occurred when reading secret from file <*>
+DEBUG org.apache.zookeeper.common.X509Util: Could not parse java version <*>, using Java optimized cipher suites
+WARN org.apache.zookeeper.common.SSLContextAndOptions: Invalid value for <*>: <*>, using the default value of <*>
+DEBUG org.apache.zookeeper.common.SSLContextAndOptions: Setup enabled protocols for <*> socket: <*>
+DEBUG org.apache.zookeeper.common.SSLContextAndOptions: Setup cipher suites for <*> socket: <*>
+DEBUG org.apache.zookeeper.common.SSLContextAndOptions: Setup enabled protocols for <*> socket: <*>
+INFO org.apache.zookeeper.server.ZooKeeperServer: throttledOpWaitTime set to <*> ms
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: syncLimit set to <*>
+INFO org.apache.zookeeper.server.quorum.LeaderSessionTracker: Committing global session x<*>
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+WARN org.apache.zookeeper.ZKWatchManager: We are triggering an exists watch for delete! Shouldn\'t happen!
+ERROR org.apache.zookeeper.ClientCnxn: Timeout error occurred for the packet \'<*>\'.
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: validate if destination address is reachable for sid <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: destination address <*> is reachable for sid <*>
+WARN org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: destination address <*> not reachable anymore, shutting down the SendWorker for sid <*>
+DEBUG org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker: Calling SendWorker.finish for <*>
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with readBatchSize <*> commitBatchSize <*>
+INFO org.apache.zookeeper.server.quorum.CommitProcessor: Configuring CommitProcessor with <*> worker threads.
+INFO org.apache.zookeeper.server.quorum.FollowerRequestProcessor: Initialized FollowerRequestProcessor with <*> as <*>
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+WARN org.apache.zookeeper.server.admin.AdminServerFactory: Unable to start JettyAdminServer
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+INFO org.apache.zookeeper.Login: <*> successfully logged in.
+INFO org.apache.zookeeper.server.quorum.QuorumPeer: initLimit set to <*>
+WARN org.apache.zookeeper.server.RateLogger: Message:<*> Value:<*>
+RATELIMITLOG org.apache.zookeeper.server.watch.WatcherCleaner: Waiting for dead watchers cleaning
+DEBUG org.apache.zookeeper.server.ZooKeeperServer: Session establishment request from client <*> client\'s lastZxid is x<*>
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.watch.WatchManagerFactory: Using <*> as watch manager
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+INFO org.apache.zookeeper.server.ReferenceCountedACLCache: Ignoring acl <*> as it does not exist in the cache
+WARN org.apache.zookeeper.ServerAdminClient: Unexpected exception
+FORNAME org.apache.zookeeper.jmx.ManagedUtil: org.apache.logj.jmx.HierarchyDynamicMBean
+INFO org.apache.zookeeper.jmx.ManagedUtil: Logj . jmx support found and enabled.
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: clientPortAddress is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: secureClientPort is not set
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: observerMasterPort is not set
+INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: metricsProvider.className is <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer: Host name for quorum server <*> canonicalized from <*> to <*>
+INFO org.apache.zookeeper.server.quorum.flexible.QuorumOracleMaj: Oracle is set to <*>
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: Non-optimal configuration, consider an odd number of servers.
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: Peer type from servers list (<*>) doesn\'t match peerType (<*>). Defaulting to servers list.
+WARN org.apache.zookeeper.server.quorum.QuorumPeerConfig: Peer type from servers list (<*>) doesn\'t match peerType (<*>). Defaulting to servers list.
+INFO org.apache.zookeeper.server.ZooKeeperServerMain: Starting server
