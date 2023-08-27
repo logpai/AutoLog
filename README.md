@@ -48,7 +48,7 @@ You can play with this analysis framework with multiple ways.
 * `log_sequence_generator.py`: log path walking.
 
 
-Instruction for getting project logging statements
+Instruction for getting project logging statements, you can conduct statement-level labelling for further anomaly detection.
 ```bash
 java -jar LogStatGen.jar -j input_jar.jar -o log_methods.txt -m 'log'
 ```
@@ -65,12 +65,10 @@ Instruction for pruning log-related call graphs
 python generate_log_methods.py --cg cg.txt --output log_methods.txt --matcher 'log'
 ```
 
-Instruction for getting logEP for log-related methods
+Instruction for getting logEP for log-related methods, , you can conduct path-level labelling for further anomaly detection.
 
 ```bash
 java -jar LogEPGen.jar -j input_jar.jar -l log_methods.txt -o output_file.json
 ```
 
-Instruction for the generated log sequences: Coming Soon.
-
-Instruction for one-click generation: Coming Soon.
+Instruction for the generated log sequences (without labelling): Coming Soon.
