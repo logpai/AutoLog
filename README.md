@@ -50,7 +50,7 @@ You can play with this analysis framework with multiple ways.
 
 Instruction for getting project logging statements
 ```bash
-java -jar LogStatGen.jar -j input_jar.jar -o output_file.txt -m 'log'
+java -jar LogStatGen.jar -j input_jar.jar -o log_methods.txt -m 'log'
 ```
 
 Instruction for running the callgraph generators
@@ -68,7 +68,7 @@ python generate_log_methods.py --cg cg.txt --output log_methods.txt --matcher 'l
 Instruction for getting logEP for log-related methods
 
 ```bash
-java -jar LogEPGen.jar -j input_jar.jar -l log_methods.txt -o output_file.txt
+java -jar LogEPGen.jar -j input_jar.jar -l log_methods.txt -o output_file.json
 ```
 
 Instruction for the generated log sequences: Coming Soon.
