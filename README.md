@@ -72,3 +72,5 @@ java -jar LogEPGen.jar -j input_jar.jar -l log_methods.txt -o output_file.json
 ```
 
 Instruction for the generated log sequences: Coming Soon.
+
+Instruction for one-click generation: Coming Soon.
