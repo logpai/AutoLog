@@ -45,7 +45,7 @@ You can play with this analysis framework with multiple ways.
 * `LogEPGen.jar`: acquire log-related execution paths.
 * `javacg.jar`: generate call graph from java project.
 * `log_methods_generator.py`: a simple way to generate pruned call graphs.
-* `AutoLog_generator.py`: log path walking.
+* `log_sequence_generator.py`: log path walking.
 
 
 Instruction for getting project logging statements
