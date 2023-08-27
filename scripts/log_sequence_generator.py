@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser(
 )
 
 parser.add_argument("--call-graph-file", type=str, required=True, help="Path to the call graph file")
-parser.add_argument("--call-file", type=str, required=True, help="Path to the call file")
+parser.add_argument("--log-file", type=str, required=True, help="Path to the call file")
 parser.add_argument("--label-file", type=str, required=True, help="Path to the label file")
 parser.add_argument("--output-path", type=str, help="Directory to save generated log sequences")
 parser.add_argument("--length", type=int, help="Length of generated log sequence")
@@ -23,7 +23,7 @@ parser.add_argument("--stopper", type=int, help="Stopper for frequent pattern", 
 args = parser.parse_args()
 
 call_graph_file = args.call_graph_file
-call_file = args.call_file
+call_file = args.log_file
 label_file = args.label_file
 output_dir = args.output_path
 length = args.length
