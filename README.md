@@ -62,13 +62,16 @@ java -jar javacg-0.1-SNAPSHOT-static.jar lib1.jar ... > cg.txt
 Instruction for pruning log-related call graphs
 
 ```bash
-python generate_log_methods.py --cg cg.txt --output log_methods.txt --matcher 'log'
+python generate_log_methods.py --cg cg.txt --output log_methods.csv --matcher 'log'
 ```
 
 Instruction for getting logEP for log-related methods, , you can conduct path-level labelling for further anomaly detection.
 
 ```bash
-java -jar LogEPGen.jar -j input_jar.jar -l log_methods.txt -o output_file.json
+java -jar LogEPGen.jar -j input_jar.jar -l log_methods.txt -o log_file.json
 ```
 
-Instruction for the generated log sequences (without labelling): Coming Soon.
+Instruction for the generated log sequences (without labelling):
+```bash
+python log_sequence_generator.py --call-graph-file cg.txt --log-file log_file.json --label-file log_methods.csv --output-path gen_log.txt --length 1000000
+```
