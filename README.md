@@ -46,3 +46,29 @@ You can play with this analysis framework with multiple ways.
 * `javacg.jar`: generate call graph from java project.
 * `log_methods_generator.py`: a simple way to generate pruned call graphs.
 * `AutoLog_generator.py`: log path walking.
+
+
+Instruction for getting project logging statements
+```bash
+java -jar LogStatGen.jar -j input_jar.jar -o output_file.txt -m 'log'
+```
+
+Instruction for running the callgraph generators
+
+```bash
+java -jar javacg-0.1-SNAPSHOT-static.jar lib1.jar ... > cg.txt
+```
+
+Instruction for pruning log-related call graphs
+
+```bash
+python generate_log_methods.py --cg cg.txt --output log_methods.txt --matcher 'log'
+```
+
+Instruction for getting logEP for log-related methods
+
+```bash
+java -jar LogEPGen.jar -j input_jar.jar -l log_methods.txt -o output_file.txt
+```
+
+Instruction for the generated log sequences: Coming Soon.
