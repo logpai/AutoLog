@@ -174,8 +174,11 @@ public class LogStatGen {
     public  static void createCSVFile(List<String[]> dataList, String finalPath) {
         try {
             File file = new File(finalPath);
-            if (!file.getParentFile().exists()) { //
-                file.getParentFile().mkdirs();
+            File parent = file.getParentFile();
+            if(parent == null)
+                parent = new File("./");
+            if (!parent.exists()) { //
+                parent.mkdirs();
             }
             if (file.exists()) { //
                 file.delete();
