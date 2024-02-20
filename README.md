@@ -1,7 +1,4 @@
 # AutoLog
-**UNDER CONSTRUCTION**🔨
-
-
 Collect &amp; Analyze application log sequence from the perspective of program analysis
 ![1663063757857](image/README/1663063757857.png)
 
